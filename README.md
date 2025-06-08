@@ -50,10 +50,13 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 ### Core OOP Concepts:
 - [Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
 - [Constructors](https://www.geeksforgeeks.org/constructors-in-java/)
-- Abstraction
-- Inheritance (is-a)
-- Composition (has-a)
-- Polymorphism (compile/runtime)
+- [Encapsulation](https://www.geeksforgeeks.org/encapsulation-in-java/)
+- [Abstraction](https://www.geeksforgeeks.org/abstraction-in-java-2/)
+- [Inheritance](https://www.geeksforgeeks.org/inheritance-in-java/)
+- [Polymorphism](https://www.geeksforgeeks.org/polymorphism-in-java/)
+- [Runtime Polymorphism - Method overriding](https://www.geeksforgeeks.org/overriding-in-java/)
+- [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
+
 
 ### Advanced Topics:
 - Aggregation vs Composition
