@@ -10,7 +10,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 
 - [⛵What is LLD?](#-what-is-lld)
 - [🛺 Roadmap to Mastery](#-what-constitutes-lld)
-- [🧱 OOPs Foundation](#-oops)
+- [🧱 OOPs](#-oops)
 - [📚 Must-Know Concepts](#-must-know-concepts)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Projects](#-practice-projects)
@@ -48,8 +48,8 @@ Low-Level Design (LLD) is the detailed design of individual modules and componen
 Before diving into LLD, mastering **OOPs** is a must. Focus on:
 
 ### Core OOP Concepts:
-- Classes & Objects
-- Encapsulation
+- [Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
+- [Constructors](https://www.geeksforgeeks.org/constructors-in-java/)
 - Abstraction
 - Inheritance (is-a)
 - Composition (has-a)
