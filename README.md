@@ -16,6 +16,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧳 API desiging](#-api-designing)
 - [🧸 Unit tests](#-unit-tests)
+- [📡 Exception handling](#-exception-handling)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
@@ -184,6 +185,31 @@ Unit testing ensures **individual units of logic** (like class ) behave **predic
 - [Video Tutorial](https://www.youtube.com/watch?v=o5k9NOR9lrI)
   
 ---
+
+
+## 📡 Exception Handling
+
+Exception handling in APIs should:
+- Return **clear and consistent error messages** to the client
+- Avoid leaking **internal system details**
+- Use **standard HTTP status codes**
+- Separate **business logic** from error management
+
+### 📿 Best Practices
+
+-  Use **custom exception classes** for domain-specific errors
+-  Map exceptions to proper **HTTP status codes**
+-  Don't swallow exceptions, logs complete stack trace on server for better debugging.
+-  Distinguish betwenn, service failures, dependency failures and bad requests and have monitoring on service failures.
+-  Emit proper metrics during successful or unsuccessful invocation of APIs for dashboarding.
+
+### 🗒 Resources
+- [Tutorail](https://www.baeldung.com/java-exceptions)
+- [Video Tutorial](https://www.youtube.com/watch?v=34ttwuxHtAE)
+- [Best Practises](https://www.geeksforgeeks.org/best-practices-to-handle-exceptions-in-java/)
+
+---
+
 
 ## 💡 Interview-Oriented Resources
 
