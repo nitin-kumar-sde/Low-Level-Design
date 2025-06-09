@@ -30,7 +30,7 @@ Low-Level Design (LLD) is the detailed design of individual modules and componen
 ## 🛺 What constitutes LLD
 
 1. Master Object-Oriented Programming (OOPs)
-2. Learn UML notations
+2. Learn UML diagrams
 3. Learn SOLID Principles
 4. Deep dive into Design Patterns
 5. Practise standard problems of LLD interviews
@@ -60,15 +60,8 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 - [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
 
 
-### Advanced Topics:
-- Aggregation vs Composition
-- Overriding vs Overloading
-- Interfaces vs Abstract Classes
-- Cohesion & Coupling
-
 ### Resources:
 - [Java OOPs Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
-- [C++ OOPs - Programiz](https://www.programiz.com/cpp-programming/object-oriented-programming)
 - [OOP Concepts with Examples](https://www.educative.io/blog/object-oriented-programming)
 
 ---
