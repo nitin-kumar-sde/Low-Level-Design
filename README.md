@@ -190,10 +190,10 @@ Unit testing ensures **individual units of logic** (like class ) behave **predic
 ## 📡 Exception Handling
 
 Exception handling in APIs should:
-- Return **clear and consistent error messages** to the client
-- Avoid leaking **internal system details**
+- Return **clear and consistent error messages** to the client in case of failures.
 - Use **standard HTTP status codes**
 - Separate **business logic** from error management
+- Client should implement retries with exponential backoff in case of retriable scenerios.
 
 ### 📿 Best Practices
 
