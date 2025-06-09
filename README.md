@@ -9,7 +9,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 ## 📘 Table of Contents
 
 - [⛵What is LLD?](#-what-is-lld)
-- [🛺 Roadmap to Mastery](#-what-constitutes-lld)
+- [🛺 What constitutes LLD](#-what-constitutes-lld)
 - [🧱 OOPs](#-oops)
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
