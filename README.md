@@ -15,6 +15,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧳 API desiging](#-api-designing)
+- [🧸 Unit tests](#-unit-tests)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
@@ -149,12 +150,41 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 ### 📐 Pagination
 - Set up pagination logic for bigger responses.
 
-## 📂 Resources
+### 📂 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
 - [HTTP Protocols](https://www.w3schools.com/tags/ref_httpmethods.asp)
 
 ---
+
+## 🧸 Unit tests
+
+Unit testing ensures **individual units of logic** (like class ) behave **predictably** and **fail fast**. These tests are **fast**, **independent of external systems**, and focus purely on **business logic**, and are independent of external dependencies.
+
+
+### 🕰 Best Practices
+
+- Test **one unit** at a time.
+- Use **mocks/stubs** to isolate dependencies.
+- Use test driven developement.
+- Aim for **high coverage**, but **don't chase 100%**
+- Test code should be equally readble like business logic.
+
+
+### 📦 Common Libraries
+
+| Language | Framework     | Testing Tool         | Mocking Tool     |
+|----------|----------------|----------------------|------------------|
+| Node.js  | Express         | Jest, Mocha, Supertest | Sinon, Nock       |
+| Java     | Spring Boot     | JUnit,    | Mockito          |
+| Python   | Flask/FastAPI   | pytest      | unittest.mock    |
+
+### 📘 Resources
+- [Tutorial](https://www.freecodecamp.org/news/java-unit-testing/)
+- [Video Tutorial](https://www.youtube.com/watch?v=o5k9NOR9lrI)
+  
+---
+
 ## 💡 Interview-Oriented Resources
 
 - [LLD Questions List (GitHub)](https://github.com/tssovi/low-level-design-primer)
