@@ -14,6 +14,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
+- [🧳 API desiging](#-api-designing)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
@@ -117,6 +118,43 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 
 ---
 
+## 🧳 API designing
+
+### 🔫 Self explainatory name
+- API name should clearly tell its behaviour.
+- API should not have side effects i.e. unexpected behaviour apart from conveyed by the name.
+
+### 🔩 Single Responsibilty
+- API should have a clear and single reponsibility.
+- Break API into multiple ones, if its have too much branching based in input.
+
+### 🧲 Clear Request, response structures and API paths
+- Request attributes should be carefully named, explained clearly in documentation.
+- Response attributes should be carefully named, explained clearly in documentation.
+- API path should be consistent and follow REST standards.
+
+### 🧹 Clear Errors with  Status Codes
+- API should have clearly defined common errors along with status codes.
+
+### 🧨 Versioning
+-  Use API versions in case of backward incompatible changes.
+-  Example  `/api/v1/users`
+ 
+### 🔑 Authentication and Authorization
+- Use proper authentication and authorization mechanisms.
+
+### 🏺 Rate limit APIs
+- Rate limit your APIs to protect service from unwanted number of accesses.
+
+### 📐 Pagination
+- Set up pagination logic for bigger responses.
+
+## 📂 Resources
+- [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
+- [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
+- [HTTP Protocols](https://www.w3schools.com/tags/ref_httpmethods.asp)
+
+---
 ## 💡 Interview-Oriented Resources
 
 - [LLD Questions List (GitHub)](https://github.com/tssovi/low-level-design-primer)
