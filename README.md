@@ -57,6 +57,7 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 - [Runtime Polymorphism - Method overriding](https://www.geeksforgeeks.org/overriding-in-java/)
 - [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
 - [Compile time Polymorphism - Operator overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/)  - Only supported in C++
+- [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
 
 
 ### Advanced Topics:
