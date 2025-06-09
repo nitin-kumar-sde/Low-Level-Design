@@ -57,14 +57,25 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 - [Runtime Polymorphism - Method overriding](https://www.geeksforgeeks.org/overriding-in-java/)
 - [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
 - [Compile time Polymorphism - Operator overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/)  - Only supported in C++
+
+
+### UML Diagrams
+- [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
+- [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
+- [Is A/ Has A relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
+
+### Important Interview Questions
 - [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
+- [Difference between Aggregation and Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
 
 
 ### Resources:
 - [Java OOPs Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
 - [OOP Concepts with Examples](https://www.educative.io/blog/object-oriented-programming)
 
+
 ---
+
 
 ## 📚 Must-Know Concepts
 
