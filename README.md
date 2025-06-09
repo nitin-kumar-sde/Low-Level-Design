@@ -11,7 +11,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [⛵What is LLD?](#-what-is-lld)
 - [🛺 Roadmap to Mastery](#-what-constitutes-lld)
 - [🧱 OOPs](#-oops)
-- [📚 Must-Know Concepts](#-must-know-concepts)
+- [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Projects](#-practice-projects)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
@@ -77,13 +77,10 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 ---
 
 
-## 📚 Must-Know Concepts
+## 📚 Solid Principles
+- [Tutorial](https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/)
+- [Video](https://www.youtube.com/watch?v=_jDNAf3CzeY)
 
-- SOLID Principles
-- GRASP Principles
-- DRY / KISS / YAGNI
-- Dependency Injection
-- LLD vs HLD boundaries
 
 ---
 
