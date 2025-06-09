@@ -13,7 +13,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧱 OOPs](#-oops)
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
-- [🛠 Practice Projects](#-practice-projects)
+- [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
@@ -107,7 +107,7 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 
 ---
 
-## 🛠 Practice Projects
+## 🛠 Practice Standard Interview Problems
 
 - Design BookMyShow
 - Design a Parking Lot
