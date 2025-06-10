@@ -15,7 +15,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧳 API desiging](#-api-designing)
-- [🧸 Unit tests](#-unit-tests)
+- [🧸 Unit testing](#-unit-testing)
 - [📡 Exception handling](#-exception-handling)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
@@ -239,7 +239,7 @@ or header-based versioning.
 
 ---
 
-## 🧸 Unit tests
+## 🧸 Unit testing
 
 Unit testing is the practice of testing individual units of code (typically functions or classes) in isolation to ensure they work as expected. These tests are fast, reliable, and help you catch bugs early, making your codebase more maintainable and robust.
 
