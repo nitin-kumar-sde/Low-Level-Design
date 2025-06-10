@@ -241,29 +241,36 @@ or header-based versioning.
 
 ## 🧸 Unit tests
 
-Unit testing ensures **individual units of logic** (like class ) behave **predictably** and **fail fast**. These tests are **fast**, **independent of external systems**, and focus purely on **business logic**, and are independent of external dependencies.
+Unit testing is the practice of testing individual units of code (typically functions or classes) in isolation to ensure they work as expected. These tests are fast, reliable, and help you catch bugs early, making your codebase more maintainable and robust.
 
+Unit tests should not depend on databases, network calls, or external services — they strictly validate the business logic in isolation.
 
 ### 🕰 Best Practices
 
-- Test **one unit** at a time.
-- Use **mocks/stubs** to isolate dependencies.
-- Use test driven developement.
-- Aim for **high coverage**, but **don't chase 100%**
-- Test code should be equally readble like business logic.
+- ✅ Test one unit at a time – Keep tests focused and scoped.
+- 🧪 Use mocks/stubs/fakes to isolate external dependencies.
+- 🧱 Follow Test-Driven Development (TDD) when possible: write the test before the implementation.
+- 🎯 Aim for high coverage, but don’t obsess over 100% — focus on critical paths.
+- 📖 Keep test code clean and readable – treat it with the same care as production code.
+- 🧩 Use meaningful test names to describe behavior: `shouldThrowException_whenInputIsInvalid()`
 
 
-### 📦 Common Libraries
+### 📦 Common Libraries and Tools
 
-| Language | Framework     | Testing Tool         | Mocking Tool     |
-|----------|----------------|----------------------|------------------|
-| Node.js  | Express         | Jest, Mocha, Supertest | Sinon, Nock       |
-| Java     | Spring Boot     | JUnit,    | Mockito          |
-| Python   | Flask/FastAPI   | pytest      | unittest.mock    |
+| Language   | Framework       | Testing Tool             | Mocking Tool      |
+|------------|------------------|---------------------------|-------------------|
+| **Java**     | Spring Boot      | JUnit, TestNG              | Mockito           |
+| **Node.js**  | Express          | Jest, Mocha, Supertest     | Sinon, Nock       |
+| **Python**   | Flask/FastAPI    | pytest, unittest           | unittest.mock     |
+| **Go**       | stdlib           | `testing` pkg              | testify/mock      |
+| **.NET**     | ASP.NET Core     | MSTest, xUnit              | Moq               |
+
 
 ### 📘 Resources
-- [Tutorial](https://www.freecodecamp.org/news/java-unit-testing/)
-- [Video Tutorial](https://www.youtube.com/watch?v=o5k9NOR9lrI)
+- 📖 [Java Unit Testing Tutorial – FreeCodeCamp](https://www.freecodecamp.org/news/java-unit-testing/)
+- 📺 [Unit Testing in Java – YouTube](https://www.youtube.com/watch?v=o5k9NOR9lrI)
+- 📘 [Effective Unit Testing Principles (Baeldung)](https://www.baeldung.com/java-unit-testing-best-practices)
+- 🛠 [Test driven Development](https://www.baeldung.com/java-test-driven-list)
   
 ---
 
