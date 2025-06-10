@@ -1,15 +1,15 @@
 # 🎠 Low-Level Design (LLD) complete Roadmap with resources
 
-🪂🪂  Welcome to the ultimate roadmap + curated resources to master **Low-Level Design (LLD)**. 
+🪂🪂  Welcome to the ultimate roadmap + resources to master **Low-Level Design (LLD)**. 
 
-Whether you're preparing for system design interviews, leveling up your object-oriented programming, enhancing API or DB schemas designing skills or learning failure handling mechanism at low level or unit testing philosophy this repo has you covered.
+Whether you're preparing for system design interviews, leveling up your object-oriented programming skills , enhancing API or DB schemas designing skills or learning failure handling mechanism at low level or unit testing at class level - this repo has you covered.
 
 ---
 
 ## 📘 Table of Contents
 
-- [⛵What is LLD?](#-what-is-lld)
-- [🛺 What constitutes LLD](#-what-constitutes-lld)
+- [🧰 What is LLD?](#-what-is-lld)
+- [🔩 What does LLD comprise?](#-what-does-lld-comprise)
 - [🧱 OOPs](#-oops)
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
@@ -24,31 +24,41 @@ Whether you're preparing for system design interviews, leveling up your object-o
 
 ---
 
-## ⛵ What is LLD?
+## 🧰 What is LLD?
 
-Low-Level Design (LLD) is the detailed design of individual modules and components of a system at low level. It emphasizes on the low level details of the system like interfaces of clients, readabilty , maintainabilty and scalabilty of system at code level.
+Low-Level Design, is a phase in the software development process where detailed system components and their interactions are specified, along with their implementation details. 
+
+It involves converting the high-level design into a more detailed blueprint, addressing specific algorithms, data structures, interfaces, performance, unit testing mechanisms, failure handling and Optiomally designing APIs and Database tables.
+
+LLD serves as a guide for developers during coding, which ensures the accurate and efficient implementation of the system's functionality.
+
+[Learn More](https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/)
+
 
 ---
 
-## 🛺 What constitutes LLD
 
-1. Master Object-Oriented Programming (OOPs)
-2. Learn UML diagrams
-3. Learn SOLID Principles
-4. Deep dive into Design Patterns
-5. Practise standard problems of LLD interviews
-6. Learn the art of Designing great API constracts
-7. Learn Database schema design skills
-8. Learning failure handling
-9. Learn Unit testing
-10. Multithreading and Thread safety
+## 🔩 What does LLD comprise?
+
+LLD comprises of all the low level details of the system like 
+
+- Master Object-Oriented Programming (OOPs)
+- Learn UML diagrams
+- Learn SOLID Principles 
+- Deep dive into Design Patterns
+- Practise standard problems of LLD interviews
+- Art of Designing great APIs
+- Database schema design skills
+- Proper error handling mechanisms
+- Unit testing at class level
+- Multithreading and Thread safety
 
 
 ---
 
 ## 🧱 OOPs
 
-Before diving into LLD, mastering **OOPs** is a must. Focus on:
+Before diving into LLD, mastering **OOPs** is a must.
 
 ### Core OOP Concepts:
 - [Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
@@ -61,11 +71,12 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 - [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
 - [Compile time Polymorphism - Operator overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/)  - Only supported in C++
 
-
+  
 ### UML Diagrams
 - [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
 - [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
 - [Is A/ Has A relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
+
 
 ### Important Interview Questions
 - [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
@@ -75,14 +86,41 @@ Before diving into LLD, mastering **OOPs** is a must. Focus on:
 ### Resources:
 - [Java OOPs Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
 - [OOP Concepts with Examples](https://www.educative.io/blog/object-oriented-programming)
+- [Video Tutorial](https://www.youtube.com/watch?v=0flBHkyET_E)
+- [Book](https://www.freecodecamp.org/news/learn-java-object-oriented-programming/)
 
 
 ---
 
 
 ## 📚 Solid Principles
-- [Tutorial](https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/)
-- [Video](https://www.youtube.com/watch?v=_jDNAf3CzeY)
+
+SOLID is an acronym for five key principles of object-oriented design that help create clean, scalable, and maintainable software. 
+These principles make your codebase easier to understand, extend, and refactor.
+
+It stands for 
+
+🏂 S – Single Responsibility Principle (SRP)
+**A class should have only one reason to change.**
+
+🧘 O – Open/Closed Principle (OCP)
+**Software entities should be open for extension but closed for modification.**
+
+🎖 L – Liskov Substitution Principle (LSP)
+**Subtypes must be substitutable for their base types without breaking the program.**
+
+🎸 I – Interface Segregation Principle (ISP)
+**Clients should not be forced to depend on interfaces they don’t use.**
+
+🎧 D – Dependency Inversion Principle (DIP)
+**High-level modules should not depend on low-level modules. Both should depend on abstractions.**
+
+🧠 Note
+> These principles were introduced by Robert C. Martin (Uncle Bob) and are foundational in designing robust object-oriented systems.
+
+
+- [Tutorial](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- [Best Video Tutorial](https://www.youtube.com/watch?v=_jDNAf3CzeY)
 
 
 ---
