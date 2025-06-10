@@ -160,39 +160,82 @@ It stands for
 
 ## 🧳 API designing
 
-### 🔫 Self explainatory name
-- API name should clearly tell its behaviour.
-- API should not have side effects i.e. unexpected behaviour apart from conveyed by the name.
+Designing high-quality APIs is at the heart of building scalable, maintainable, and user-friendly backend systems. A good API acts as a contract between different components or services, and when designed well, it enables ease of integration, clear communication, and long-term stability.
 
-### 🔩 Single Responsibilty
-- API should have a clear and single reponsibility.
-- Break API into multiple ones, if its have too much branching based in input.
+This section outlines key principles and best practices for designing clean, RESTful APIs that are easy to understand, evolve, and use.
 
-### 🧲 Clear Request, response structures and API paths
-- Request attributes should be carefully named, explained clearly in documentation.
-- Response attributes should be carefully named, explained clearly in documentation.
-- API path should be consistent and follow REST standards.
 
-### 🧹 Clear Errors with  Status Codes
-- API should have clearly defined common errors along with status codes.
+### 🏆 Self explainatory Name
+- API endpoints should clearly reflect their intent through naming.
+- Avoid side effects or unexpected behavior not implied by the name.
+- Use nouns for resource names and HTTP methods to convey action:
 
-### 🧨 Versioning
--  Use API versions in case of backward incompatible changes.
--  Example  `/api/v1/users`
+Example:
+```
+GET /users/{id} → fetch user info
+
+POST /orders → place a new order
+```
+
+### 🎸 Follow Single Responsibility Principle
+- Each API should perform one well-defined task.
+- If an API handles multiple logical flows based on input, split it into separate endpoints.
+- This enhances modularity, testing, and reusability.
+
+
+
+### 🎖 Clear Request, response structures and API paths
+- Use consistent and clear naming conventions for attributes in both requests and responses.
+- Document the request/response schemas (use OpenAPI/Swagger for standardization).
+- Keep API paths hierarchical, resource-based, and REST-compliant:
+
+```
+✅ GET /users/{userId}/orders
+❌ GET /getAllOrdersByUserId
+```
+
+### 🎭 Clear Errors with  Status Codes
+- Return appropriate HTTP status codes (200, 400, 401, 404, 500, etc.).
+- Include meaningful error messages and optional error codes in the response body.
+
+```
+{
+  "error": "UserNotFound",
+  "message": "No user found with ID 1234"
+}
+```
+
+### 🥋 Use Versioning
+- Always version your APIs to allow for backward-incompatible changes.
+- Use URI versioning like
+  
+```
+/api/v1/users
+or header-based versioning.
+```
  
-### 🔑 Authentication and Authorization
-- Use proper authentication and authorization mechanisms.
+### 🔑 Implement Authentication & Authorization
 
-### 🏺 Rate limit APIs
-- Rate limit your APIs to protect service from unwanted number of accesses.
+- Use standards like OAuth2, JWT, or API keys to secure your APIs.
+- Ensure role-based access control (RBAC) is properly enforced.
 
-### 📐 Pagination
-- Set up pagination logic for bigger responses.
 
-### 📂 Resources
+### 🏹 Rate limit APIs
+
+- Use rate limiting to prevent abuse, reduce load, and ensure fair usage.
+- Respond with 429 Too Many Requests when the limit is exceeded.
+
+
+### 🎪 Support Pagination
+- For large datasets, implement pagination using query parameters:
+`GET /orders?page=2&limit=50`
+- Use standard patterns like cursor-based or offset-based pagination
+
+  
+### 📘 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
-- [HTTP Protocols](https://www.w3schools.com/tags/ref_httpmethods.asp)
+- [Video Tutorial on REST APIs](https://www.youtube.com/watch?v=7nm1pYuKAhY)
 
 ---
 
