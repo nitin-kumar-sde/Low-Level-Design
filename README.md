@@ -16,7 +16,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧳 API desiging](#-api-designing)
 - [🧸 Unit testing](#-unit-testing)
-- [📡 Exception handling](#-exception-handling)
+- [🦅 Error handling](#-error-handling)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
@@ -274,7 +274,7 @@ Unit tests should not depend on databases, network calls, or external services �
   
 ---
 
-## 🦅 Exception Handling
+## 🦅 Error Handling
 
 Exception handling in APIs plays a critical role in delivering a predictable and smooth client experience. Proper handling ensures that clients receive **meaningful feedback**, developers can **debug issues effectively**, and systems remain **resilient and observable**.
 
