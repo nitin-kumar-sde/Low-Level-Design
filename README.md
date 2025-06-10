@@ -274,30 +274,40 @@ Unit tests should not depend on databases, network calls, or external services �
   
 ---
 
+## 🦅 Exception Handling
 
-## 📡 Exception Handling
+Exception handling in APIs plays a critical role in delivering a predictable and smooth client experience. Proper handling ensures that clients receive **meaningful feedback**, developers can **debug issues effectively**, and systems remain **resilient and observable**.
 
-Exception handling in APIs should:
-- Return **clear and consistent error messages** to the client in case of failures.
-- Use **standard HTTP status codes**
-- Separate **business logic** from error management
-- Client should implement retries with exponential backoff in case of retriable scenerios.
+A well-handled exception should:
+- Return **clear and consistent error messages** to client.
+- Use **standard HTTP status codes** to convey the type of failure.
+- Separate **business logic** from **error management**.
+- Enable clients to implement **retries with exponential backoff** in retriable scenarios (e.g., 5xx errors).
 
-### 📿 Best Practices
+### 🏄‍♂️ Best Practices
 
--  Use **custom exception classes** for domain-specific errors
--  Map exceptions to proper **HTTP status codes**
--  Don't swallow exceptions, logs complete stack trace on server for better debugging.
--  Distinguish betwenn, service failures, dependency failures and bad requests and have monitoring on service failures.
--  Emit proper metrics during successful or unsuccessful invocation of APIs for dashboarding.
+- ✅ **Use custom exception classes** for domain-specific error handling.
+- 🧭 **Map exceptions to appropriate HTTP status codes**:
+  - `400` – Bad Request (e.g., validation error)
+  - `401` – Unauthorized
+  - `403` – Forbidden
+  - `404` – Not Found
+  - `500` – Internal Server Error
+- 🔍 **Do not silently swallow exceptions** – log complete stack traces for debugging.
+- 🔄 **Differentiate between**:
+  - Business logic failures
+  - Dependency/infrastructure failures (e.g., DB/3rd party APIs)
+  - User input errors
+- 📊 **Emit structured logs and metrics** for success/failure events – useful for observability and alerting.
+- 🧪 **Always validate and sanitize** user inputs to prevent cascading failures.
 
-### 🗒 Resources
+
+### 📘 Resources
 - [Tutorail](https://www.baeldung.com/java-exceptions)
 - [Video Tutorial](https://www.youtube.com/watch?v=34ttwuxHtAE)
 - [Best Practises](https://www.geeksforgeeks.org/best-practices-to-handle-exceptions-in-java/)
 
 ---
-
 
 ## 💡 Interview-Oriented Resources
 
