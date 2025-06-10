@@ -16,6 +16,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🤩 Clean Coding](#-clean-coding)
 - [🧳 API desiging](#-api-designing)
+- [🗽DB Schema designing](#-db-schema-designing)
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
@@ -273,6 +274,11 @@ or header-based versioning.
 
 ---
 
+## 🗽 DB schema designing
+
+> TBD
+
+---
 ## 🧸 Unit testing
 
 Unit testing is the practice of testing individual units of code (typically functions or classes) in isolation to ensure they work as expected. These tests are fast, reliable, and help you catch bugs early, making your codebase more maintainable and robust.
