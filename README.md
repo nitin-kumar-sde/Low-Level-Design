@@ -14,6 +14,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
+- [🤩 Clean Coding](#-clean-coding)
 - [🧳 API desiging](#-api-designing)
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
@@ -158,6 +159,44 @@ It stands for
 
 ---
 
+## 🤩 Clean Coding 
+
+Writing **clean code** is about crafting software that is easy to read, maintain, and extend. It focuses on **clarity, simplicity, consistency, and intent**, rather than cleverness. Clean code reduces bugs, improves collaboration, and makes debugging faster.
+
+> _"Clean code always looks like it was written by someone who cares."_  
+> – Robert C. Martin (Uncle Bob)
+
+### 🧭 Principles of Clean Code
+
+- 📛 **Meaningful Names**: Use descriptive variable, method, and class names.
+- 📏 **Small Functions**: Functions should do one thing and do it well.
+- 🧹 **Clean Formatting**: Maintain consistent indentation, spacing, and structure.
+- 🧪 **Avoid Duplication**: Follow the **DRY (Don’t Repeat Yourself)** principle.
+- 🧠 **Code for Humans**: Your code should be self-explanatory, even without comments.
+- 🔀 **Single Responsibility**: Each class/function should have only one reason to change.
+- 🔥 **Error Handling**: Use exceptions, not return codes. Handle errors close to their source.
+- 🪓 **Remove Dead Code**: Eliminate unused code paths, variables, and methods.
+- 💬 **Minimal Comments**: Code should explain itself — comments are for complex logic or decisions only.
+
+### 📚 Resources
+
+- [Clean Code Video Playlist](https://www.youtube.com/watch?v=7EmboKQH8lM)
+- [Clean Code Tutorial](https://www.freecodecamp.org/news/how-to-write-clean-code/)
+- [Clean code Book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - PDF added in repository
+
+---
+
+### 📺 Video Playlist
+
+- **Clean Code by Uncle Bob (Robert C. Martin)**  
+  [🎥 Watch on YouTube](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
+
+---
+
+> 🔁 Writing clean code is not a one-time task — it’s a mindset and a habit built over time.
+
+
+---
 ## 🧳 API designing
 
 Designing high-quality APIs is at the heart of building scalable, maintainable, and user-friendly backend systems. A good API acts as a contract between different components or services, and when designed well, it enables ease of integration, clear communication, and long-term stability.
