@@ -19,9 +19,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
-- [📺 Video Playlists](#-video-playlists)
 - [📖 Recommended Books](#-recommended-books)
-- [🚀 Bonus: Mock Design Problems](#-bonus-mock-design-problems)
 
 ---
 
@@ -178,6 +176,9 @@ Writing **clean code** is about crafting software that is easy to read, maintain
 - 🪓 **Remove Dead Code**: Eliminate unused code paths, variables, and methods.
 - 💬 **Minimal Comments**: Code should explain itself — comments are for complex logic or decisions only.
 
+> 🔁 Writing clean code is not a one-time task — it’s a mindset and a habit built over time.
+
+
 ### 📚 Resources
 
 - [Clean Code Video Playlist](https://www.youtube.com/watch?v=7EmboKQH8lM)
@@ -186,17 +187,6 @@ Writing **clean code** is about crafting software that is easy to read, maintain
 
 ---
 
-### 📺 Video Playlist
-
-- **Clean Code by Uncle Bob (Robert C. Martin)**  
-  [🎥 Watch on YouTube](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
-
----
-
-> 🔁 Writing clean code is not a one-time task — it’s a mindset and a habit built over time.
-
-
----
 ## 🧳 API designing
 
 Designing high-quality APIs is at the heart of building scalable, maintainable, and user-friendly backend systems. A good API acts as a contract between different components or services, and when designed well, it enables ease of integration, clear communication, and long-term stability.
@@ -270,11 +260,16 @@ or header-based versioning.
 `GET /orders?page=2&limit=50`
 - Use standard patterns like cursor-based or offset-based pagination
 
+### 🎛 Idempotency 
+- APIs should be idempotent—repeated calls with the same input should produce the same result without causing unintended side effects.
+- This is especially important for PUT, DELETE, and retryable POST requests in order to prevent duplication or inconsistent state in case of network failures or client retries.
+- Idempotency ensures safety, predictability, and robustness in distributed systems
   
 ### 📘 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
 - [Video Tutorial on REST APIs](https://www.youtube.com/watch?v=7nm1pYuKAhY)
+- [Idempotency](https://medium.com/@reetesh043/rest-api-design-what-is-idempotency-18218e1ff73c)
 
 ---
 
@@ -354,34 +349,15 @@ A well-handled exception should:
 - [Scaler LLD Sheets](https://www.scaler.com/topics/low-level-design/)
 - [LLD Playlist - SDE Skills](https://www.youtube.com/@SDESkills)
 
----
-
-## 📺 Video Playlists
-
-- [Tech Dummies - Narendra L](https://www.youtube.com/@TechDummiesNarendraL)
-- [CodeKarle](https://www.youtube.com/@codekarle)
-- [Arpit Bhayani](https://www.youtube.com/@arpitbhayani)
 
 ---
 
 ## 📖 Recommended Books
 
 - **Design Patterns: Elements of Reusable Object-Oriented Software** – Gang of Four  
-- **Head First Design Patterns** – Eric Freeman  
-- **Clean Code** – Robert C. Martin  
-- **System Design Interview Vol. 2** – Alex Xu
-
+- **Clean Code** – Robert C. Martin 
+ [Both are attached in the repository]
 ---
 
-## 🚀 Bonus: Mock Design Problems
-
-- Design Rate Limiter  
-- Design In-Memory Cache (like LRU)  
-- Design File Storage System  
-- Design Hotel Booking System  
-- Design Notification System (Email/SMS)
-
----
-
-> 🔁 _Practice. Refactor. Discuss. That’s the secret to mastering LLD._  
-> 👨‍💻 Happy Designing!
+🔁 _Practice. Refactor. Discuss. That’s the secret to mastering LLD._  
+👨‍💻 Happy Designing!
