@@ -19,6 +19,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🗽DB Schema designing](#-db-schema-designing)
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
+- [🧵 Multi Threading](#-multi-threading)
 - [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📖 Recommended Books](#-recommended-books)
 
@@ -346,6 +347,50 @@ A well-handled exception should:
 - [Tutorail](https://www.baeldung.com/java-exceptions)
 - [Video Tutorial](https://www.youtube.com/watch?v=34ttwuxHtAE)
 - [Best Practises](https://www.geeksforgeeks.org/best-practices-to-handle-exceptions-in-java/)
+
+---
+
+## 🧵 Multi Threading 
+
+Multithreading allows multiple parts of a program to execute concurrently, making full use of multi-core processors. It helps improve:
+- 🔄 **Asynchronous Processing** (e.g., UI threads not blocked)
+- 🚀 **Throughput** (e.g., web servers handling thousands of requests)
+- 💰 **Improved Performance** (e.g. Parallellism to improve latency)
+
+But, it introduces complexity: **race conditions**, **deadlocks**, **memory visibility issues**.
+
+### 💸 Threads Basics
+- [Threads Introduction](https://www.geeksforgeeks.org/java-threads/)
+- [Difference between Threads and Processes](https://www.shiksha.com/online-courses/articles/difference-between-process-and-thread/)
+
+### 🛠️ Thread safety and Synchronization
+- [Synchronization](https://www.geeksforgeeks.org/synchronization-in-java/)
+- [Locks](https://www.baeldung.com/java-concurrent-locks)
+- [Atomic variables](https://www.baeldung.com/java-atomic-variables)
+- [Semaphores](https://www.baeldung.com/java-semaphore)
+- [Concurrent Collections](https://www.geeksforgeeks.org/need-concurrent-collections-java/)
+
+
+### ⛓️ Inter Thread Coordination
+- [Wait and Notify](https://www.baeldung.com/java-wait-notify)
+- [Countdown Latch](https://www.baeldung.com/java-countdown-latch)
+- [Exchangers](https://www.baeldung.com/java-exchanger)
+
+### 🧳 Thread Pool and Executors
+- [Thread Pools](https://www.baeldung.com/thread-pool-java-and-guava)
+- [Executor Service](https://www.baeldung.com/java-executor-service-tutorial)
+- [Optimal Pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
+- [Types of Executor Service](https://vinodhgowda.medium.com/understanding-executorservices-types-in-java-62ded89f6bdd)
+- [Callables and Futures](https://www.geeksforgeeks.org/callable-future-java/)
+- [Fork and Join](https://www.baeldung.com/java-fork-join)
+
+###  ⚠️ Common Pitfalls
+- [Deadlocks](https://www.baeldung.com/java-deadlock-livelock)
+- [Race Conditions](https://www.baeldung.com/cs/race-conditions)
+
+### Resources
+- [Tutorial](https://www.baeldung.com/java-concurrency)
+- [Video Tutorial](https://www.youtube.com/watch?v=gvQGKRlgop4&ab_channel=freeCodeCamp.org)
 
 ---
 
