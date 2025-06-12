@@ -11,6 +11,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧰 What is LLD?](#-what-is-lld)
 - [🔩 What does LLD comprise?](#-what-does-lld-comprise)
 - [🧱 OOPs](#-oops)
+- [🎁 UML Diagrams](#-uml-diagrams)
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
@@ -72,16 +73,12 @@ Before diving into LLD, mastering **OOPs** is a must.
 - [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
 - [Compile time Polymorphism - Operator overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/)  - Only supported in C++
 
-  
-### UML Diagrams
-- [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
-- [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
-- [Is A/ Has A relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
-
 
 ### Important Interview Questions
 - [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
 - [Difference between Aggregation and Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
+- [Is A/ Has A relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
+
 
 
 ### Resources:
@@ -93,6 +90,18 @@ Before diving into LLD, mastering **OOPs** is a must.
 
 ---
 
+## 🎁 UML Diagrams
+
+- [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
+- [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
+- [Sequence Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/)
+- [Activity Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/)
+- [State Machine Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-state-diagrams/)
+- [Component Diagrams](https://www.geeksforgeeks.org/component-based-diagram/)
+- [Use Case Diagrams](https://www.geeksforgeeks.org/use-case-diagram/)
+
+
+---
 
 ## 📚 Solid Principles
 
