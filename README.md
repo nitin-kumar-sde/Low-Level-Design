@@ -379,10 +379,14 @@ But, it introduces complexity: **race conditions**, **deadlocks**, **memory visi
 ### 🧳 Thread Pool and Executors
 - [Thread Pools](https://www.baeldung.com/thread-pool-java-and-guava)
 - [Executor Service](https://www.baeldung.com/java-executor-service-tutorial)
-- [Optimal Pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
 - [Types of Executor Service](https://vinodhgowda.medium.com/understanding-executorservices-types-in-java-62ded89f6bdd)
 - [Callables and Futures](https://www.geeksforgeeks.org/callable-future-java/)
 - [Fork and Join](https://www.baeldung.com/java-fork-join)
+
+
+### 📉 Optimal Number of threads
+- [Optimal Pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
+- [Parallellisation factor using Threads](https://stackoverflow.com/questions/43874079/how-to-decide-on-the-threadpooltaskexecutor-pools-and-queue-sizes)
 
 ###  ⚠️ Common Pitfalls
 - [Deadlocks](https://www.baeldung.com/java-deadlock-livelock)
