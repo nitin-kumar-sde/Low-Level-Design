@@ -92,6 +92,15 @@ Before diving into LLD, mastering **OOPs** is a must.
 
 ## 🎁 UML Diagrams
 
+**Unified Modeling Language (UML)** is a standardized visual language used to model the architecture, design, and behavior of software systems. It helps developers, architects, and stakeholders communicate system structure and design decisions effectively.
+
+UML diagrams are broadly categorized into two types:
+
+- **Structural Diagrams** – Describe the *static* aspects of the system (e.g., classes, objects, components).
+- **Behavioral Diagrams** – Illustrate the *dynamic* behavior (e.g., use cases, sequences, activities).
+
+### 🏎️ Most Commonly used UML Diagrams
+
 - [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
 - [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
 - [Sequence Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/)
