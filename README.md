@@ -14,7 +14,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [📚 Solid Principles](#-solid-principles)
 - [🎯 Design Pattern Resources](#-design-pattern-resources)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
-- [🤩 Clean Coding](#-clean-coding)
+- [🧹 Clean Coding](#-clean-coding)
 - [🧳 API desiging](#-api-designing)
 - [🗽DB Schema designing](#-db-schema-designing)
 - [🧸 Unit testing](#-unit-testing)
@@ -159,7 +159,7 @@ It stands for
 
 ---
 
-## 🤩 Clean Coding 
+## 🧹 Clean Coding 
 
 Writing **clean code** is about crafting software that is easy to read, maintain, and extend. It focuses on **clarity, simplicity, consistency, and intent**, rather than cleverness. Clean code reduces bugs, improves collaboration, and makes debugging faster.
 
