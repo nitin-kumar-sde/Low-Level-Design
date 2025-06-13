@@ -168,10 +168,10 @@ Design Patterns are broadly classified into **three categories**, based on the n
 
 - [Adapter](https://www.geeksforgeeks.org/adapter-pattern/)
 - [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/)
-- Composite  
-- Decorator  
-- Facade  
-- Proxy  
+- [Composite](https://www.geeksforgeeks.org/composite-design-pattern-in-java/)
+- [Decorator](https://www.geeksforgeeks.org/system-design/decorator-pattern/)
+- [Facade](https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/) 
+- [Proxy](https://www.geeksforgeeks.org/system-design/proxy-design-pattern/)
 
 ### 🚢 Behavioral Patterns  
 
