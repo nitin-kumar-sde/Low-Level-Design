@@ -13,7 +13,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧱 OOPs](#-oops)
 - [🎁 UML Diagrams](#-uml-diagrams)
 - [📚 Solid Principles](#-solid-principles)
-- [🎯 Design Pattern Resources](#-design-pattern-resources)
+- [💫 Design Patterns](#-design-patterns)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧹 Clean Coding](#-clean-coding)
 - [🧳 API desiging](#-api-designing)
@@ -144,26 +144,52 @@ It stands for
 
 ---
 
-## 🎯 Design Pattern Resources
+## 💫 Design Patterns
 
-### Key Patterns to Learn:
+**Design Patterns** are proven, reusable solutions to common problems in software design. Rather than reinventing the wheel, developers can apply these patterns to improve code quality, scalability, and maintainability.
 
-- Singleton
-- Factory Method
-- Builder
-- Strategy
-- Observer
-- Adapter
-- Decorator
-- Composite
-- Proxy
-- Template Method
+They encapsulate best practices gained over time, helping teams write cleaner, more modular, and flexible code—especially in large systems.
 
-### Best Resources:
+Design Patterns are broadly classified into **three categories**, based on the nature of the problem they solve - 
 
-- [Refactoring Guru](https://refactoring.guru/design-patterns)
-- [SourceMaking Patterns](https://sourcemaking.com/design_patterns)
-- [Tech Dummies (YouTube)](https://www.youtube.com/@TechDummiesNarendraL)
+### 🏗️ Creational Patterns  
+
+**Object creation mechanisms, decoupling the client from the creation logic.**
+
+- [Singleton](https://www.geeksforgeeks.org/singleton-design-pattern/)
+- [Factory](https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/)
+- [Abstract Factory](https://www.geeksforgeeks.org/abstract-factory-pattern/)  
+- [Builder](https://www.geeksforgeeks.org/system-design/builder-design-pattern/)
+- [Prototype](https://www.geeksforgeeks.org/system-design/prototype-design-pattern/) 
+
+### 🧱 Structural Patterns  
+
+**Class and object composition, making large structures more flexible.**
+
+- Adapter  
+- Bridge  
+- Composite  
+- Decorator  
+- Facade  
+- Flyweight  
+- Proxy  
+
+### 🚢 Behavioral Patterns  
+
+**Communication between objects, responsibility assignment, and interaction.**
+
+- Observer  
+- Strategy  
+- Command  
+- State  
+- Template Method  
+- Mediator  
+- Chain of Responsibility  
+- Iterator  
+- Visitor  
+- Memento  
+- Interpreter  
+
 
 ---
 
