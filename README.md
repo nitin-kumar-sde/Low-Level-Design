@@ -166,12 +166,11 @@ Design Patterns are broadly classified into **three categories**, based on the n
 
 **Class and object composition, making large structures more flexible.**
 
-- Adapter  
-- Bridge  
+- [Adapter](https://www.geeksforgeeks.org/adapter-pattern/)
+- [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/)
 - Composite  
 - Decorator  
 - Facade  
-- Flyweight  
 - Proxy  
 
 ### 🚢 Behavioral Patterns  
