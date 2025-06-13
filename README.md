@@ -177,18 +177,12 @@ Design Patterns are broadly classified into **three categories**, based on the n
 
 **Communication between objects, responsibility assignment, and interaction.**
 
-- Observer  
-- Strategy  
-- Command  
-- State  
-- Template Method  
-- Mediator  
-- Chain of Responsibility  
-- Iterator  
-- Visitor  
-- Memento  
-- Interpreter  
-
+- [Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/)
+- [Strategy](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/)  
+- [Command](https://www.geeksforgeeks.org/system-design/command-pattern/) 
+- [State](https://www.geeksforgeeks.org/system-design/state-design-pattern/)  
+- [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/)  
+- [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/)  
 
 ---
 
