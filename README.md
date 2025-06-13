@@ -150,39 +150,47 @@ It stands for
 
 They encapsulate best practices gained over time, helping teams write cleaner, more modular, and flexible code—especially in large systems.
 
-Design Patterns are broadly classified into **three categories**, based on the nature of the problem they solve - 
+Design patterns are broadly categorized into **three types**, based on their purpose:
 
 ### 🏗️ Creational Patterns  
 
 **Object creation mechanisms, decoupling the client from the creation logic.**
 
-- [Singleton](https://www.geeksforgeeks.org/singleton-design-pattern/)
-- [Factory](https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/)
-- [Abstract Factory](https://www.geeksforgeeks.org/abstract-factory-pattern/)  
-- [Builder](https://www.geeksforgeeks.org/system-design/builder-design-pattern/)
-- [Prototype](https://www.geeksforgeeks.org/system-design/prototype-design-pattern/) 
+- 🔁 [Singleton](https://www.geeksforgeeks.org/singleton-design-pattern/) -  Ensure a class has only one instance.
+- 🏭 [Factory Method](https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/) - Create objects without exposing the instantiation logic.
+- 🧰 [Abstract Factory](https://www.geeksforgeeks.org/abstract-factory-pattern/) - Factory of factories — create families of related objects.
+- 🧱 [Builder](https://www.geeksforgeeks.org/system-design/builder-design-pattern/) - Step-by-step object construction.
+- 🧬 [Prototype](https://www.geeksforgeeks.org/system-design/prototype-design-pattern/) - Clone existing objects without depending on their classes.
+
 
 ### 🧱 Structural Patterns  
 
-**Class and object composition, making large structures more flexible.**
+**How to compose objects and classes into larger structures.**
 
-- [Adapter](https://www.geeksforgeeks.org/adapter-pattern/)
-- [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/)
-- [Composite](https://www.geeksforgeeks.org/composite-design-pattern-in-java/)
-- [Decorator](https://www.geeksforgeeks.org/system-design/decorator-pattern/)
-- [Facade](https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/) 
-- [Proxy](https://www.geeksforgeeks.org/system-design/proxy-design-pattern/)
+- 🔌 [Adapter](https://www.geeksforgeeks.org/adapter-pattern/) - Convert one interface into another.
+- 🌉 [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/) - Separate abstraction from implementation.
+- 🌲 [Composite](https://www.geeksforgeeks.org/composite-design-pattern-in-java/) - Treat individual and composite objects uniformly.
+- 🎨 [Decorator](https://www.geeksforgeeks.org/system-design/decorator-pattern/) - Add new behaviors dynamically at runtime.
+- 🧊 [Facade](https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/) - Provide a simplified interface to a complex subsystem.
+- 🛡️ [Proxy](https://www.geeksforgeeks.org/system-design/proxy-design-pattern/) - Control access or add functionality to another object.
+
 
 ### 🚢 Behavioral Patterns  
 
-**Communication between objects, responsibility assignment, and interaction.**
+**How objects interact, share responsibility, and communicate.**
 
-- [Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/)
-- [Strategy](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/)  
-- [Command](https://www.geeksforgeeks.org/system-design/command-pattern/) 
-- [State](https://www.geeksforgeeks.org/system-design/state-design-pattern/)  
-- [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/)  
-- [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/)  
+- 👁️ [Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/) - Notify dependent objects automatically on state change.
+- 🧠 [Strategy](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/) - Select algorithms or behaviors at runtime.
+- 🎮 [Command](https://www.geeksforgeeks.org/system-design/command-pattern/) - Encapsulate a request as an object for later execution.
+- 🔄 [State](https://www.geeksforgeeks.org/system-design/state-design-pattern/) - Change behavior when internal state changes.
+- 🔁 [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/) - Provide a way to access elements sequentially.
+- 🧾 [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/) - Pass request along a chain of handlers until one handles it.
+
+### 📘 Resources
+
+- [Coursera – Design Patterns (by UC San Diego)](https://www.coursera.org/learn/design-patterns)
+- [GOF Book - Attached as PDF in Repository](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+- [Design Patterns - GFG](https://www.geeksforgeeks.org/system-design/java-design-patterns/)
 
 ---
 
