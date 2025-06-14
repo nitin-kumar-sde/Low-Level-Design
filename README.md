@@ -196,10 +196,17 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 ## 🛠 Practice Standard Interview Problems
 
+- [Design Notify Me feature](https://medium.com/@beingadish/how-amazons-notify-me-feature-leverages-the-observer-design-pattern-d087b23deb46)
+- [Design Snake and Ladder](https://medium.com/@abhigulve06/lld-of-the-snake-and-ladder-game-3fd9f47cdd3a)
+- [Design Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc)
+- [Design Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/)
+- [Design Logging System](https://medium.com/@say2ankitgupta/low-level-design-of-logging-framework-ffaae7c701ee)
+- [Desing Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/)
+- [Design Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/)
+- [Design Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala)
 - Design BookMyShow
 - Design a Parking Lot
 - Design Splitwise
-- Design an Elevator System
 - Design Cab Booking (Uber)
 
 ---
