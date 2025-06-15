@@ -205,8 +205,9 @@ Design patterns are broadly categorized into **three types**, based on their pur
 - [Design Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/)
 - [Design Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/)
 - [Design Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala)
-- Design BookMyShow
-- Design a Parking Lot
+- [Design BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow)
+- [Design Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/)
+- [Design ATM machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074)
 - Design Splitwise
 - Design Cab Booking (Uber)
 
