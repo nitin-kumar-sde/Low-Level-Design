@@ -205,10 +205,14 @@ Design patterns are broadly categorized into **three types**, based on their pur
 - [Design Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/)
 - [Design Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/)
 - [Design Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala)
+- [Design True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding)
+- [Design Traffic Light Management System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/)
+- [Design CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz)
 - [Design BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow)
 - [Design Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/)
 - [Design ATM machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074)
-- Design Splitwise
+- [Design Vending Machine](https://www.geeksforgeeks.org/system-design/vending-machine-low-level-design/)
+- [Design Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/)
 - Design Cab Booking (Uber)
 
 ---
