@@ -1,6 +1,7 @@
 # 🎠 Low-Level Design (LLD) complete Roadmap with resources
 
-🪂🪂  Welcome to the ultimate roadmap + resources to master **Low-Level Design (LLD)**. 
+🪂🪂  Welcome to the all-in-one guide to master Low-Level Design (LLD).
+
 
 Whether you're preparing for system design interviews, leveling up your object-oriented programming skills , enhancing API or DB schemas designing skills or learning failure handling mechanism at low level or unit testing at class level - this repo has you covered.
 
