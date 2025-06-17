@@ -9,7 +9,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 
 ## 📘 Table of Contents
 
-- [🧰 What is LLD?](#-what-is-lld)
+- [🔍 What is LLD?](#-what-is-lld)
 - [🔩 What does LLD comprise?](#-what-does-lld-comprise)
 - [🧱 OOPs](#-oops)
 - [🎁 UML Diagrams](#-uml-diagrams)
@@ -27,15 +27,16 @@ Whether you're preparing for system design interviews, leveling up your object-o
 
 ---
 
-## 🧰 What is LLD?
+## 🔍 What is LLD?
 
-Low-Level Design, is a phase in the software development process where detailed system components and their interactions are specified, along with their implementation details. 
+Low-Level Design (LLD) is a crucial phase in the software development process where the internal components of a system and their interactions are defined in detail, including implementation specifics.
 
-It involves converting the high-level design into a more detailed blueprint, addressing specific algorithms, data structures, interfaces, performance, unit testing mechanisms, failure handling and Optiomally designing APIs and Database tables.
+It translates the high-level design into a detailed technical blueprint, covering aspects such as algorithms, data structures, interfaces, performance optimization, unit testing strategies, failure handling mechanisms, and the optimal design of APIs and database schemas.
 
-LLD serves as a guide for developers during coding, which ensures the accurate and efficient implementation of the system's functionality.
+LLD acts as a developer’s guide during implementation, ensuring the system is built accurately, efficiently, and in alignment with the intended architecture.
 
-[Learn More](https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/)
+
+[Learn More →](https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/)
 
 
 ---
@@ -43,50 +44,52 @@ LLD serves as a guide for developers during coding, which ensures the accurate a
 
 ## 🔩 What does LLD comprise?
 
-LLD comprises of all the low level details of the system like 
+While LLD can capture a wide range of micro-level details, it primarily focuses on the following key areas:
 
-- Master Object-Oriented Programming (OOPs)
-- Learn UML diagrams
-- Learn SOLID Principles 
-- Deep dive into Design Patterns
-- Practise standard problems of LLD interviews
-- Art of Designing great APIs
-- Database schema design skills
-- Proper error handling mechanisms
-- Unit testing at class level
-- Multithreading and Thread safety
-
+- 🧱 Object-Oriented Programming (OOPs)
+- 🧾 UML diagrams
+- 📐 Design Principles 
+- 🎨 Design Patterns
+- ⏳ Modular Application Architecture
+- ⚛ API Design 
+- 🔑 Database Schemas
+- 🛡️ Error handling mechanism
+- ⏳ Unit testing
+- 🛢 Multithreading and Thread safety
 
 ---
 
 ## 🧱 OOPs
 
-Before diving into LLD, mastering **OOPs** is a must.
+Before diving into Low-Level Design (LLD), having a strong grasp of **Object-Oriented Programming (OOP)** is essential.
 
-### Core OOP Concepts:
-- [Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
-- [Constructors](https://www.geeksforgeeks.org/constructors-in-java/)
-- [Encapsulation](https://www.geeksforgeeks.org/encapsulation-in-java/)
-- [Abstraction](https://www.geeksforgeeks.org/abstraction-in-java-2/)
-- [Inheritance](https://www.geeksforgeeks.org/inheritance-in-java/)
-- [Polymorphism](https://www.geeksforgeeks.org/polymorphism-in-java/)
-- [Runtime Polymorphism - Method overriding](https://www.geeksforgeeks.org/overriding-in-java/)
-- [Compile time Polymorphism - Method overloading](https://www.geeksforgeeks.org/method-overloading-in-java/)
-- [Compile time Polymorphism - Operator overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/)  - Only supported in C++
+OOP provides the foundation for building modular, reusable, and maintainable software.
 
+### 🔑 Core OOP Concepts
 
-### Important Interview Questions
-- [Difference between Abstract class and Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
-- [Difference between Aggregation and Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
-- [Is A/ Has A relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
+- [📦 Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
+- [✍🏻 Constructors](https://www.geeksforgeeks.org/constructors-in-java/)
+- [💊 Encapsulation](https://www.geeksforgeeks.org/encapsulation-in-java/)
+- [🎭 Abstraction](https://www.geeksforgeeks.org/abstraction-in-java-2/)
+- [🧬 Inheritance](https://www.geeksforgeeks.org/inheritance-in-java/)
+- [🪄 Polymorphism](https://www.geeksforgeeks.org/polymorphism-in-java/)
+  - [⚙️ Compile-time Polymorphism (Method Overloading)](https://www.geeksforgeeks.org/method-overloading-in-java/)
+  - [⚒️ Runtime Polymorphism (Method Overriding)](https://www.geeksforgeeks.org/overriding-in-java/)
+  - [➕ Operator Overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/) **(C++ only)**
 
 
+### ❓ Frequently Asked Interview Questions
+- [🆚 Abstract Class vs Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
+- [🔁 Static vs Dynamic Binding](https://www.geeksforgeeks.org/java/static-vs-dynamic-binding-in-java/)
+- [📤 Overloading vs Overriding](https://www.geeksforgeeks.org/java/difference-between-method-overloading-and-method-overriding-in-java/)
+- [📦 Constructor Chaining](https://www.geeksforgeeks.org/constructor-chaining-java-examples/)
 
-### Resources:
-- [Java OOPs Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
-- [OOP Concepts with Examples](https://www.educative.io/blog/object-oriented-programming)
-- [Video Tutorial](https://www.youtube.com/watch?v=0flBHkyET_E)
-- [Book](https://www.freecodecamp.org/news/learn-java-object-oriented-programming/)
+### 📘 Resources
+- [🗞️ Java OOPs Tutorial – GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
+- [🛫 OOP Concepts with Real Examples – Educative](https://www.educative.io/blog/object-oriented-programming)
+- [🎥 Video Crash Course – YouTube](https://www.youtube.com/watch?v=0flBHkyET_E)
+- [🧳 OOP Explained with Java (FreeCodeCamp)](https://www.freecodecamp.org/news/learn-java-object-oriented-programming/)
+- [✉️ C++ OOP Fundamentals – GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
 
 
 ---
@@ -111,6 +114,9 @@ UML diagrams are broadly categorized into two types:
 - [Use Case Diagrams](https://www.geeksforgeeks.org/use-case-diagram/)
 
 
+### ❓ Frequently Asked Interview Questions
+- [🧩 Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
+- [🔗 "Is A" vs "Has A" Relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
 ---
 
 ## 📚 Solid Principles
