@@ -208,12 +208,21 @@ Design patterns are broadly categorized into **three types**, based on their pur
 - [Design True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding)
 - [Design Traffic Light Management System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/)
 - [Design CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz)
+- [Design Meeting Schedular](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04)
 - [Design BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow)
+- [Design Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8)
 - [Design Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/)
 - [Design ATM machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074)
 - [Design Vending Machine](https://www.geeksforgeeks.org/system-design/vending-machine-low-level-design/)
 - [Design Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/)
-- Design Cab Booking (Uber)
+- [Design Cab Booking](https://www.geeksforgeeks.org/system-design/cab-booking-system-low-level-design/)
+- [Design Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)
+- [Design Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy)
+- [Design Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362)
+- [Design Food Delivery System](https://www.youtube.com/watch?v=XN17WWiUzT4&ab_channel=KeertiPurswani)
+- [Design Peer 2 Peer sharing System](https://www.thealgorists.com/LLD/FileSharingSystem)
+- [Design Rate limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh)
+- [Design Community Discussion Forum]()
 
 ---
 
