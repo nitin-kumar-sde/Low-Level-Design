@@ -12,8 +12,8 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🔍 What is LLD?](#-what-is-lld)
 - [🔩 What does LLD comprise?](#-what-does-lld-comprise)
 - [🧱 OOPs](#-oops)
-- [🎁 UML Diagrams](#-uml-diagrams)
-- [📚 Solid Principles](#-solid-principles)
+- [📝 UML Diagrams](#-uml-diagrams)
+- [🎲 Design Principles](#-design-principles)
 - [💫 Design Patterns](#-design-patterns)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧹 Clean Coding](#-clean-coding)
@@ -94,61 +94,122 @@ OOP provides the foundation for building modular, reusable, and maintainable sof
 
 ---
 
-## 🎁 UML Diagrams
+## 📝 UML Diagrams
 
 **Unified Modeling Language (UML)** is a standardized visual language used to model the architecture, design, and behavior of software systems. It helps developers, architects, and stakeholders communicate system structure and design decisions effectively.
 
-UML diagrams are broadly categorized into two types:
+### 🧭 Types of UML Diagrams
 
-- **Structural Diagrams** – Describe the *static* aspects of the system (e.g., classes, objects, components).
-- **Behavioral Diagrams** – Illustrate the *dynamic* behavior (e.g., use cases, sequences, activities).
+- **📐 Structural Diagrams** – Describe the *static* aspects of the system such as classes, objects, and their relationships.
+- **⚙️ Behavioral Diagrams** – Represent the *dynamic* behavior of the system including use cases, sequences, and workflows.
+
 
 ### 🏎️ Most Commonly used UML Diagrams
 
-- [Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
-- [Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
-- [Sequence Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/)
-- [Activity Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/)
-- [State Machine Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-state-diagrams/)
-- [Component Diagrams](https://www.geeksforgeeks.org/component-based-diagram/)
-- [Use Case Diagrams](https://www.geeksforgeeks.org/use-case-diagram/)
+- [📦 Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
+- [🧸 Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
+- [⏱️ Sequence Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/)
+- [📊 Activity Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/)
+- [🔁 State Machine Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-state-diagrams/)
+- [🧱 Component Diagrams](https://www.geeksforgeeks.org/component-based-diagram/)
+- [🎭 Use Case Diagrams](https://www.geeksforgeeks.org/use-case-diagram/)
 
 
 ### ❓ Frequently Asked Interview Questions
 - [🧩 Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
 - [🔗 "Is A" vs "Has A" Relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
+
+### 🛠️ Tools for Designing UML Diagrams
+- [✏️ Draw.io](https://draw.io) 
+- [📝 Lucidchart](https://www.lucidchart.com/) 
+- [♻️ PlantUML](https://plantuml.com/) 
+
 ---
 
-## 📚 Solid Principles
+## 🎲 Design Principles
 
-SOLID is an acronym for five key principles of object-oriented design that help create clean, scalable, and maintainable software. 
-These principles make your codebase easier to understand, extend, and refactor.
-
-It stands for 
-
-🏂 S – Single Responsibility Principle (SRP)
-**A class should have only one reason to change.**
-
-🧘 O – Open/Closed Principle (OCP)
-**Software entities should be open for extension but closed for modification.**
-
-🎖 L – Liskov Substitution Principle (LSP)
-**Subtypes must be substitutable for their base types without breaking the program.**
-
-🎸 I – Interface Segregation Principle (ISP)
-**Clients should not be forced to depend on interfaces they don’t use.**
-
-🎧 D – Dependency Inversion Principle (DIP)
-**High-level modules should not depend on low-level modules. Both should depend on abstractions.**
-
-🧠 Note
-> These principles were introduced by Robert C. Martin (Uncle Bob) and are foundational in designing robust object-oriented systems.
+Design principles are foundational guidelines that help developers build clean, maintainable, and scalable systems. These principles reduce code smells, improve team collaboration, and enhance long-term project sustainability.
 
 
-- [Tutorial](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
-- [Best Video Tutorial](https://www.youtube.com/watch?v=_jDNAf3CzeY)
+### 🧱 SOLID
+
+**SOLID** is an acronym for five essential object-oriented design principles introduced by *Robert C. Martin (Uncle Bob)*. They promote clean architecture, ease of extension, and maintainability.
+
+🏂 **S – Single Responsibility Principle (SRP)**  
+
+A class should have only one reason to change.
+
+🧘 **O – Open/Closed Principle (OCP)**  
+Software entities should be open for extension but closed for modification.
+
+🎖 **L – Liskov Substitution Principle (LSP)**  
+Subtypes must be substitutable for their base types without altering program correctness.
+
+🎸 **I – Interface Segregation Principle (ISP)**  
+Clients should not be forced to depend on interfaces they do not use.
+
+🎧 **D – Dependency Inversion Principle (DIP)**  
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+🧠 *Note:* These principles are the backbone of designing robust, testable, and extensible object-oriented systems.
 
 
+### ♻️ DRY
+
+**DRY** is an acronym which stands for **Don't Repeat Yourself**.
+
+Avoid duplicating logic or knowledge in your codebase.
+
+💡 **Why it matters:**  
+Duplication leads to inconsistency, bugs, and higher maintenance effort.
+
+🛠 **How to follow DRY:**
+- Extract reusable logic into utility methods or helper classes.
+- Use abstract classes with generics to extract common logic in multiple similar use cases.
+- Rely on proven libraries to avoid reinventing the wheel.
+
+
+### 🧊 KISS – Keep It Simple, Stupid
+
+**KISS** is an acronym which stands for **Keep It Simple, Stupid.**
+
+Prefer simplicity in design and implementation. Avoid unnecessary complexity.
+
+💡 **Why it matters:**  
+Simple code is easier to read, debug, test, and extend.
+
+> “Simplicity is the soul of efficiency.” — *Austin Freeman*
+
+🛠 **Tips to follow KISS:**
+- Choose the simplest possible solution that works.
+- Avoid premature abstraction or over-engineering.
+- Write for clarity first, optimization later.
+
+
+### 🚫 YAGNI 
+
+**YAGNI** is an acronym which stands for **You Aren’t Gonna Need It**. 
+
+Don’t implement something unless it is absolutely required.
+
+💡 **Why it matters:**  
+Speculative features increase code complexity and often never get used.
+
+🛠 **How to avoid YAGNI:**
+- Stick to current requirements; iterate based on real feedback.
+- Delay abstractions until patterns genuinely emerge.
+- Don’t anticipate future features unless they’re well-defined.
+
+
+### 📘 Resources
+
+- [SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- [Video SOLID](https://www.youtube.com/watch?v=_jDNAf3CzeY)
+- [DRY Principle](https://www.baeldung.com/cs/dry-software-design-principle)
+- [KiSS Principle](https://www.baeldung.com/cs/kiss-software-design-principle)
+- [YAGNI Principle](https://www.geeksforgeeks.org/software-engineering/what-is-yagni-principle-you-arent-gonna-need-it/)
+
+  
 ---
 
 ## 💫 Design Patterns
