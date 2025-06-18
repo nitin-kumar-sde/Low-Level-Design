@@ -222,7 +222,7 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 ### 🏗️ Creational Patterns  
 
-**Object creation mechanisms, decoupling the client from the creation logic.**
+**Concerned with **object creation**, they abstract the instantiation process and promote loose coupling.**
 
 - 🔁 [Singleton](https://www.geeksforgeeks.org/singleton-design-pattern/) -  Ensure a class has only one instance.
 - 🏭 [Factory Method](https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/) - Create objects without exposing the instantiation logic.
@@ -233,7 +233,7 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 ### 🧱 Structural Patterns  
 
-**How to compose objects and classes into larger structures.**
+These patterns deal with the **composition of classes and objects**, forming larger structures while keeping them flexible and efficient.
 
 - 🔌 [Adapter](https://www.geeksforgeeks.org/adapter-pattern/) - Convert one interface into another.
 - 🌉 [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/) - Separate abstraction from implementation.
@@ -245,7 +245,7 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 ### 🚢 Behavioral Patterns  
 
-**How objects interact, share responsibility, and communicate.**
+These patterns focus on **communication between objects**, how they interact, and delegate responsibilities.
 
 - 👁️ [Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/) - Notify dependent objects automatically on state change.
 - 🧠 [Strategy](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/) - Select algorithms or behaviors at runtime.
@@ -253,6 +253,29 @@ Design patterns are broadly categorized into **three types**, based on their pur
 - 🔄 [State](https://www.geeksforgeeks.org/system-design/state-design-pattern/) - Change behavior when internal state changes.
 - 🔁 [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/) - Provide a way to access elements sequentially.
 - 🧾 [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/) - Pass request along a chain of handlers until one handles it.
+
+### 🧠 When to Use Each Design Pattern
+
+| 🏷️ Pattern            | 💡 Intent                                                | 📎 When to Use                                                                 | 🔍 Example                              |
+|-----------------------|----------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------|
+| **Singleton**         | Ensure a class has only one instance                     | Global config manager, logger, DB connection pool                              | OS Kernel instance, Logger               |
+| **Factory Method**    | Delegate object creation to subclasses                   | When object creation is complex or dependent on conditions                     | GUI elements (e.g., buttons for Win/Mac) |
+| **Abstract Factory**  | Produce families of related objects                      | When system needs to be independent of product creation logic                  | UI themes with widget families           |
+| **Builder**           | Construct complex objects step-by-step                   | When object construction involves many parameters or configurations           | Building a meal, complex documents       |
+| **Prototype**         | Create objects by cloning existing ones                  | When instantiation cost is high or configuration is complex                    | Object cloning, game character skins     |
+| **Adapter**           | Convert one interface to another                         | When integrating legacy code or incompatible interfaces                        | Power plug adapter                       |
+| **Bridge**            | Decouple abstraction and implementation                  | When you need to vary abstraction and implementation independently             | Remote control → TV, Projector           |
+| **Composite**         | Treat groups of objects uniformly                        | When you need to work with tree structures                                     | File system (Folders and Files)          |
+| **Decorator**         | Add responsibilities dynamically                         | When you want to add behavior without modifying original code                  | Wrapping a coffee with milk/sugar        |
+| **Facade**            | Simplify complex subsystems                              | When you want to provide a simple interface to a complex system                | Hotel reception, API Gateway             |
+| **Proxy**             | Control access or enhance another object                 | When adding security, lazy loading, or logging                                 | Virtual proxy for image loading          |
+| **Observer**          | Notify multiple objects on change                        | When multiple objects need to react to state changes                           | News subscribers, UI events              |
+| **Strategy**          | Encapsulate algorithms and switch at runtime             | When you need to switch between different algorithms or behaviors              | Payment method (Credit, UPI, PayPal)     |
+| **Command**           | Encapsulate requests as objects                          | For undo operations, task queues, or logging actions                           | Remote control, Macro recorder           |
+| **State**             | Change behavior based on internal state                  | When object behavior changes with state                                        | Vending machine, Media Player            |
+| **Iterator**          | Access elements sequentially without exposing structure  | When you need to traverse a collection                                         | Java Iterator, Cursor in DB              |
+| **Chain of Responsibility** | Pass request along a chain of handlers           | When multiple handlers can process a request                                   | Customer support escalation              |
+
 
 ### 📘 Resources
 
