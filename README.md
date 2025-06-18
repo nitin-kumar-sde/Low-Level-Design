@@ -23,7 +23,6 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
 - [🧵 Multi Threading](#-multi-threading)
-- [💡 Interview-Oriented Resources](#-interview-oriented-resources)
 - [📖 Recommended Books](#-recommended-books)
 
 ---
@@ -663,21 +662,13 @@ Avoiding the classic mistakes of concurrent programming:
 
 ---
 
-## 💡 Interview-Oriented Resources
-
-- [LLD Questions List (GitHub)](https://github.com/tssovi/low-level-design-primer)
-- [Scaler LLD Sheets](https://www.scaler.com/topics/low-level-design/)
-- [LLD Playlist - SDE Skills](https://www.youtube.com/@SDESkills)
-
-
----
-
 ## 📖 Recommended Books
 
-- **Design Patterns: Elements of Reusable Object-Oriented Software** – Gang of Four  
-- **Clean Code** – Robert C. Martin 
- [Both are attached in the repository]
+- **Design Patterns: Elements of Reusable Object-Oriented Software** 
+- **Clean Code** 
+- **Refactoring - Improving the Design of Existing Code**
+
 ---
 
-🔁 _Practice. Refactor. Discuss. That’s the secret to mastering LLD._  
-👨‍💻 Happy Designing!
+🔁 Practice ➡️ Refactor ➡️ Discuss — is the secret to mastering Low-Level Design.
+👨‍💻 Keep building. Keep learning. Happy designing!
