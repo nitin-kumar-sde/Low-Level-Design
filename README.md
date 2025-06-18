@@ -17,6 +17,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [💫 Design Patterns](#-design-patterns)
 - [🛠 Practice Standard Interview Problems](#-practice-standard-interview-problems)
 - [🧹 Clean Coding](#-clean-coding)
+- [⏳ Modular Application Architecture](#-modular-application-architecture)
 - [🧳 API desiging](#-api-designing)
 - [🗽DB Schema designing](#-db-schema-designing)
 - [🧸 Unit testing](#-unit-testing)
@@ -347,14 +348,40 @@ Writing **clean code** is about crafting software that is easy to read, maintain
 
 ---
 
+## ⏳ Modular Application Architecture
+
+Layered architecture separates responsibilities into distinct layers, making code modular, testable, and easier to maintain.
+
+### 💡 Layer Responsibilities
+
+- **𝄜 Controller Layer**: Handles user input and routes requests to the domain layer.
+- **📋 Domain Layer**: Contains core business logic and models.
+- **🔧 DAO Layer**: Responsible for interacting with the database.
+- **📎 Accessor Layer**: Handles communication with external services/APIs.
+
+### 📁 Sample Folder Structure
+
+```
+/src
+  └── /main
+      └── /java
+          └── /com/example/app
+              ├── controller      # Handles incoming requests (e.g., UserController.java)
+              ├── domain          # Business logic and models (e.g., UserService.java, User.java)
+              ├── dao             # Data Access layer (e.g., UserRepository.java)
+              └── accessor        # External API/service clients (e.g., EmailClient.java)
+```
+
+
+---
+
 ## 🧳 API designing
 
-Designing high-quality APIs is at the heart of building scalable, maintainable, and user-friendly backend systems. A good API acts as a contract between different components or services, and when designed well, it enables ease of integration, clear communication, and long-term stability.
+Designing high-quality APIs is fundamental to building scalable, maintainable, and user-friendly backend systems. A well-designed API acts as a **contract** between systems—enabling integration, clear communication, and long-term stability.
 
-This section outlines key principles and best practices for designing clean, RESTful APIs that are easy to understand, evolve, and use.
+This section outlines key principles and best practices for designing clean, RESTful APIs.
 
-
-### 🏆 Self explainatory Name
+#### 🏆 Self explainatory Name
 - API endpoints should clearly reflect their intent through naming.
 - Avoid side effects or unexpected behavior not implied by the name.
 - Use nouns for resource names and HTTP methods to convey action:
@@ -366,26 +393,24 @@ GET /users/{id} → fetch user info
 POST /orders → place a new order
 ```
 
-### 🎸 Follow Single Responsibility Principle
+#### 🎸 Follow Single Responsibility Principle
 - Each API should perform one well-defined task.
-- If an API handles multiple logical flows based on input, split it into separate endpoints.
-- This enhances modularity, testing, and reusability.
+- If an endpoint handles multiple flows or behaviors, break it down into separate endpoints for clarity and testability.
 
 
-
-### 🎖 Clear Request, response structures and API paths
-- Use consistent and clear naming conventions for attributes in both requests and responses.
+#### 🎖 Clear Structure: Paths, Requests & Responses
+- Keep API paths hierarchical, resource-based, and REST-compliant
+- Use consistent and clear attribute naming conventions in JSON bodies
 - Document the request/response schemas (use OpenAPI/Swagger for standardization).
-- Keep API paths hierarchical, resource-based, and REST-compliant:
 
 ```
 ✅ GET /users/{userId}/orders
 ❌ GET /getAllOrdersByUserId
 ```
 
-### 🎭 Clear Errors with  Status Codes
-- Return appropriate HTTP status codes (200, 400, 401, 404, 500, etc.).
-- Include meaningful error messages and optional error codes in the response body.
+#### 🎭 Meaningful Errors with Status Codes
+- Include meaningful error messages and appropriate HTTP status codes in the response body.
+`200 OK`, `201 Created`, `400 Bad Request`, `401 Unauthorized`, `404 Not Found`, `500 Internal Server Error`
 
 ```
 {
@@ -394,36 +419,40 @@ POST /orders → place a new order
 }
 ```
 
-### 🥋 Use Versioning
-- Always version your APIs to allow for backward-incompatible changes.
+#### 🔢 Use Versioning
+- Always version your APIs to support backward-incompatible changes.
 - Use URI versioning like
   
 ```
 /api/v1/users
-or header-based versioning.
 ```
  
-### 🔑 Implement Authentication & Authorization
+#### 🔐 Implement Authentication & Authorization
 
-- Use standards like OAuth2, JWT, or API keys to secure your APIs.
-- Ensure role-based access control (RBAC) is properly enforced.
-
-
-### 🏹 Rate limit APIs
-
-- Use rate limiting to prevent abuse, reduce load, and ensure fair usage.
-- Respond with 429 Too Many Requests when the limit is exceeded.
+- Use industry standards like OAuth2, JWT, or API keys to secure your APIs.
+- Enforce **Role-Based Access Control (RBAC)** to restrict sensitive operations.
 
 
-### 🎪 Support Pagination
-- For large datasets, implement pagination using query parameters:
+#### ⏳ Rate Limiting
+
+- Protect APIs from abuse and server overload using rate-limiting.
+- Return status code 429 Too Many Requests when limit is exceeded
+
+
+#### 🧮 Pagination for Large Data Sets
+
+- Use offset-based or cursor-based pagination when response is too large
+
 `GET /orders?page=2&limit=50`
-- Use standard patterns like cursor-based or offset-based pagination
 
-### 🎛 Idempotency 
-- APIs should be idempotent—repeated calls with the same input should produce the same result without causing unintended side effects.
-- This is especially important for PUT, DELETE, and retryable POST requests in order to prevent duplication or inconsistent state in case of network failures or client retries.
-- Idempotency ensures safety, predictability, and robustness in distributed systems
+#### ♻️ Idempotency for Safe Repeats
+- Ensure repeatable requests (especially PUT, DELETE, and retryable POSTs) don’t create unintended side effects.
+- Use idempotency keys to prevent duplicate processing.
+
+```
+POST /payments  
+Idempotency-Key: abc123
+```
   
 ### 📘 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
@@ -438,68 +467,123 @@ or header-based versioning.
 > TBD
 
 ---
-## 🧸 Unit testing
 
-Unit testing is the practice of testing individual units of code (typically functions or classes) in isolation to ensure they work as expected. These tests are fast, reliable, and help you catch bugs early, making your codebase more maintainable and robust.
 
-Unit tests should not depend on databases, network calls, or external services — they strictly validate the business logic in isolation.
+## 🧪 Unit Testing
+
+**Unit testing** is the process of testing individual units of code—such as functions, methods, or classes—in isolation from the rest of the system. It is a **core practice in modern software development** that ensures your business logic works correctly before integration with other parts.
+
+🔍 A unit test verifies a single "unit of work" and should **not depend** on external systems like databases, file systems, or network APIs.
+
+Well-written unit tests serve as a **safety net during refactoring**, enable faster development, and improve long-term maintainability and confidence in the system.
+
+> “Tests are not optional. A project without tests is broken by design.”  
+> – *Robert C. Martin*
 
 ### 🕰 Best Practices
 
-- ✅ Test one unit at a time – Keep tests focused and scoped.
-- 🧪 Use mocks/stubs/fakes to isolate external dependencies.
-- 🧱 Follow Test-Driven Development (TDD) when possible: write the test before the implementation.
-- 🎯 Aim for high coverage, but don’t obsess over 100% — focus on critical paths.
-- 📖 Keep test code clean and readable – treat it with the same care as production code.
-- 🧩 Use meaningful test names to describe behavior: `shouldThrowException_whenInputIsInvalid()`
+- ✅ **Test One Thing**  
+  Each test should validate a single, specific behavior — this makes tests easier to read and debug.
+
+- 🧱 **Mock External Dependencies**  
+  Use mocking libraries to isolate the unit under test. Never test actual database or network calls in unit tests.
+
+- 📐 **Follow TDD (Test-Driven Development)**  
+  Consider writing tests before the implementation to clarify requirements and drive better design.
+
+- 🎯 **Target Business-Critical Logic**  
+  Focus on areas where logic complexity is high or errors are costly.
+
+- 🧼 **Clean Test Code Is Crucial**  
+  Keep your test code as readable and maintainable as your production code — avoid copy-paste, duplication, and vague test names.
+
+- 🧩 **Use Descriptive Test Names**  
+  Example: `shouldThrowException_whenUsernameIsBlank()` or `returnsDiscountedPrice_whenLoyalCustomer()`
+
+- 🧪 **Avoid Over-Mocking**  
+  Don’t mock everything — mock only what's required to keep the test isolated.
+
+- 📊 **Use Coverage Wisely**  
+  Strive for **high coverage** but not at the cost of readability or test bloat. Focus more on **important logic paths** than on achieving 100%.
 
 
-### 📦 Common Libraries and Tools
+### 🧰 Common Libraries and Tools
 
-| Language   | Framework       | Testing Tool             | Mocking Tool      |
-|------------|------------------|---------------------------|-------------------|
-| **Java**     | Spring Boot      | JUnit, TestNG              | Mockito           |
-| **Node.js**  | Express          | Jest, Mocha, Supertest     | Sinon, Nock       |
-| **Python**   | Flask/FastAPI    | pytest, unittest           | unittest.mock     |
-| **Go**       | stdlib           | `testing` pkg              | testify/mock      |
-| **.NET**     | ASP.NET Core     | MSTest, xUnit              | Moq               |
+| Language     | Framework         | Testing Tools                | Mocking Tools            |
+|--------------|-------------------|-------------------------------|---------------------------|
+| **Java**     | Spring Boot        | JUnit 5, TestNG               | Mockito, EasyMock         |
+| **Node.js**  | Express            | Jest, Mocha, Supertest        | Sinon.js, Nock            |
+| **Python**   | FastAPI, Flask     | pytest, unittest              | unittest.mock, MagicMock  |
+| **Go**       | stdlib             | `testing` pkg, GoMock         | testify/mock              |
+| **.NET**     | ASP.NET Core       | MSTest, xUnit, NUnit          | Moq                       |
+| **Ruby**     | Rails              | RSpec                         | rspec-mocks               |
 
 
 ### 📘 Resources
-- 📖 [Java Unit Testing Tutorial – FreeCodeCamp](https://www.freecodecamp.org/news/java-unit-testing/)
+
+- 📖 [Java Unit Testing – FreeCodeCamp](https://www.freecodecamp.org/news/java-unit-testing/)
 - 📺 [Unit Testing in Java – YouTube](https://www.youtube.com/watch?v=o5k9NOR9lrI)
-- 📘 [Effective Unit Testing Principles (Baeldung)](https://www.baeldung.com/java-unit-testing-best-practices)
-- 🛠 [Test driven Development](https://www.baeldung.com/java-test-driven-list)
-  
+- 📘 [Baeldung – Unit Testing Principles](https://www.baeldung.com/java-unit-testing-best-practices)
+- 🛠 [Test-Driven Development (Baeldung)](https://www.baeldung.com/java-test-driven-list)
+- 📘 [The Art of Unit Testing (Book)](https://www.manning.com/books/the-art-of-unit-testing)
+
 ---
+
 
 ## 🦅 Error Handling
 
-Exception handling in APIs plays a critical role in delivering a predictable and smooth client experience. Proper handling ensures that clients receive **meaningful feedback**, developers can **debug issues effectively**, and systems remain **resilient and observable**.
+Exception handling in APIs plays a **critical role** in delivering a predictable and smooth client experience. When done well, it provides:
+- **Meaningful feedback** to clients
+- Easier **debugging** for developers
+- Greater **resilience and observability** for the system
 
 A well-handled exception should:
-- Return **clear and consistent error messages** to client.
-- Use **standard HTTP status codes** to convey the type of failure.
-- Separate **business logic** from **error management**.
-- Enable clients to implement **retries with exponential backoff** in retriable scenarios (e.g., 5xx errors).
+- Return **clear and consistent error messages**
+- Use **standard HTTP status codes**
+- Separate **business logic** from **error management**
+- Enable **client retries** in transient scenarios (e.g., 5xx errors) using exponential backoff
+
 
 ### 🏄‍♂️ Best Practices
 
-- ✅ **Use custom exception classes** for domain-specific error handling.
-- 🧭 **Map exceptions to appropriate HTTP status codes**:
-  - `400` – Bad Request (e.g., validation error)
-  - `401` – Unauthorized
-  - `403` – Forbidden
-  - `404` – Not Found
-  - `500` – Internal Server Error
-- 🔍 **Do not silently swallow exceptions** – log complete stack traces for debugging.
-- 🔄 **Differentiate between**:
-  - Business logic failures
-  - Dependency/infrastructure failures (e.g., DB/3rd party APIs)
-  - User input errors
-- 📊 **Emit structured logs and metrics** for success/failure events – useful for observability and alerting.
-- 🧪 **Always validate and sanitize** user inputs to prevent cascading failures.
+#### ✅ **Use Custom Exception Classes**  
+  Create domain-specific exceptions for granular control and clearer intent.
 
+#### 🧭 **Map Exceptions to Appropriate HTTP Status Codes**  
+  | Code | Meaning                    | Example                            |
+  |------|----------------------------|------------------------------------|
+  | 400  | Bad Request                | Input validation failure           |
+  | 401  | Unauthorized               | No valid authentication            |
+  | 403  | Forbidden                  | Authenticated but unauthorized     |
+  | 404  | Not Found                  | Resource does not exist            |
+  | 500  | Internal Server Error      | Unhandled server-side exception    |
+
+#### 🔍 **Never Swallow Exceptions Silently**  
+  Always log the full stack trace and error context — it's essential for debugging and root cause analysis.
+
+#### 🔄 **Differentiate Error Types**  
+  - **User Errors**: Invalid inputs, unauthorized access  
+  - **Business Failures**: Domain rule violations (e.g., insufficient balance)  
+  - **System Failures**: Downstream API or DB failures
+
+#### 📊 **Emit Structured Logs and Metrics**  
+  Include identifiers like `traceId`, `requestId`, and error codes in logs. Integrate with observability tools (e.g., ELK, Prometheus).
+
+#### 🧹 **Validate and Sanitize Inputs**  
+  Prevent invalid data and avoid cascading downstream issues.
+
+
+### ❗ Sample Error Response
+
+```json
+{
+  "error": "UserNotFound",
+  "message": "No user found with ID 1234",
+  "code": 404,
+  "timestamp": "2025-06-17T10:44:00Z",
+  "traceId": "xyz-123-abcd"
+}
+```
 
 ### 📘 Resources
 - [Tutorail](https://www.baeldung.com/java-exceptions)
@@ -508,51 +592,74 @@ A well-handled exception should:
 
 ---
 
-## 🧵 Multi Threading 
+## 🧵 Multithreading
 
-Multithreading allows multiple parts of a program to execute concurrently, making full use of multi-core processors. It helps improve:
-- 🔄 **Asynchronous Processing** (e.g., UI threads not blocked)
-- 🚀 **Throughput** (e.g., web servers handling thousands of requests)
-- 💰 **Improved Performance** (e.g. Parallellism to improve latency)
+Multithreading allows multiple parts of a program to run concurrently, leveraging modern multi-core processors. It's foundational for writing responsive, high-performance systems.
 
-But, it introduces complexity: **race conditions**, **deadlocks**, **memory visibility issues**.
+### 🚀 Why Use Multithreading?
 
-### 💸 Threads Basics
-- [Threads Introduction](https://www.geeksforgeeks.org/java-threads/)
-- [Difference between Threads and Processes](https://www.shiksha.com/online-courses/articles/difference-between-process-and-thread/)
+- 🔄 **Asynchronous Processing**: Keep UIs responsive or background jobs non-blocking.
+- ⚙️ **Parallelism**: Perform CPU-intensive tasks faster using multiple cores.
+- 💡 **Throughput**: Handle high volumes of user requests, tasks, or I/O operations concurrently.
 
-### 🛠️ Thread safety and Synchronization
-- [Synchronization](https://www.geeksforgeeks.org/synchronization-in-java/)
-- [Locks](https://www.baeldung.com/java-concurrent-locks)
-- [Atomic variables](https://www.baeldung.com/java-atomic-variables)
-- [Semaphores](https://www.baeldung.com/java-semaphore)
-- [Concurrent Collections](https://www.geeksforgeeks.org/need-concurrent-collections-java/)
+> ⚠️ Multithreading introduces complexity: **race conditions**, **deadlocks**, **livelocks**, and **memory visibility issues**.
 
 
-### ⛓️ Inter Thread Coordination
-- [Wait and Notify](https://www.baeldung.com/java-wait-notify)
-- [Countdown Latch](https://www.baeldung.com/java-countdown-latch)
-- [Exchangers](https://www.baeldung.com/java-exchanger)
+### 🧩 Threading Basics
 
-### 🧳 Thread Pool and Executors
-- [Thread Pools](https://www.baeldung.com/thread-pool-java-and-guava)
-- [Executor Service](https://www.baeldung.com/java-executor-service-tutorial)
-- [Types of Executor Service](https://vinodhgowda.medium.com/understanding-executorservices-types-in-java-62ded89f6bdd)
-- [Callables and Futures](https://www.geeksforgeeks.org/callable-future-java/)
-- [Fork and Join](https://www.baeldung.com/java-fork-join)
+- 📚 [Java Threads Introduction](https://www.geeksforgeeks.org/java-threads/)
+- 🧬 [Threads vs Processes](https://www.shiksha.com/online-courses/articles/difference-between-process-and-thread/)
 
 
-### 📉 Optimal Number of threads
-- [Optimal Pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
-- [Parallellisation factor using Threads](https://stackoverflow.com/questions/43874079/how-to-decide-on-the-threadpooltaskexecutor-pools-and-queue-sizes)
+### 🛠️ Thread Safety & Synchronization
 
-###  ⚠️ Common Pitfalls
-- [Deadlocks](https://www.baeldung.com/java-deadlock-livelock)
-- [Race Conditions](https://www.baeldung.com/cs/race-conditions)
+Ensuring correctness when multiple threads access shared data:
 
-### Resources
-- [Tutorial](https://www.baeldung.com/java-concurrency)
-- [Video Tutorial](https://www.youtube.com/watch?v=gvQGKRlgop4&ab_channel=freeCodeCamp.org)
+- 🔐 [Synchronization](https://www.geeksforgeeks.org/synchronization-in-java/)
+- 🔓 [Locks in Java](https://www.baeldung.com/java-concurrent-locks)
+- 🧪 [Atomic Variables](https://www.baeldung.com/java-atomic-variables)
+- 🚦 [Semaphores](https://www.baeldung.com/java-semaphore)
+- 📦 [Concurrent Collections](https://www.geeksforgeeks.org/need-concurrent-collections-java/)
+
+
+### ⛓️ Inter-thread Communication
+
+For coordination and signaling between threads
+
+- 👂 [Wait & Notify](https://www.baeldung.com/java-wait-notify)
+- ⏱️ [CountdownLatch](https://www.baeldung.com/java-countdown-latch)
+- 🔄 [Exchanger](https://www.baeldung.com/java-exchanger)
+
+
+### 🧳 Thread Pools & Executors
+
+Efficient thread lifecycle management using executors
+
+- 🏊 [Thread Pools in Java](https://www.baeldung.com/thread-pool-java-and-guava)
+- 🧭 [ExecutorService Overview](https://www.baeldung.com/java-executor-service-tutorial)
+- 🧱 [Types of Executors](https://vinodhgowda.medium.com/understanding-executorservices-types-in-java-62ded89f6bdd)
+- 🧮 [Callables & Futures](https://www.geeksforgeeks.org/callable-future-java/)
+- 🔀 [Fork/Join Framework](https://www.baeldung.com/java-fork-join)
+
+
+### 📉 Optimal Thread Count
+
+- ⚖️ [How to Calculate Ideal Thread Pool Size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
+- 📐 [Parallelization Factor](https://stackoverflow.com/questions/43874079/how-to-decide-on-the-threadpooltaskexecutor-pools-and-queue-sizes)
+
+
+### ⚠️ Common Pitfalls
+
+Avoiding the classic mistakes of concurrent programming:
+
+- 🕳️ [Deadlocks & Livelocks](https://www.baeldung.com/java-deadlock-livelock)
+- 🔁 [Race Conditions](https://www.baeldung.com/cs/race-conditions)
+
+
+### 📚 Resources
+
+- 📘 [Comprehensive Java Concurrency Guide – Baeldung](https://www.baeldung.com/java-concurrency)
+- 📺 [Multithreading Crash Course – FreeCodeCamp](https://www.youtube.com/watch?v=gvQGKRlgop4&ab_channel=freeCodeCamp.org)
 
 ---
 
