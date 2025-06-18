@@ -592,7 +592,7 @@ A well-handled exception should:
 
 ---
 
-## 🧵 Multithreading
+## 🧵 Multi Threading
 
 Multithreading allows multiple parts of a program to run concurrently, leveraging modern multi-core processors. It's foundational for writing responsive, high-performance systems.
 
