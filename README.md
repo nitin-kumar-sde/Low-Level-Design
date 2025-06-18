@@ -287,33 +287,41 @@ These patterns focus on **communication between objects**, how they interact, an
 
 ## 🛠 Practice Standard Interview Problems
 
-- [Design Notify Me feature](https://medium.com/@beingadish/how-amazons-notify-me-feature-leverages-the-observer-design-pattern-d087b23deb46)
-- [Design Snake and Ladder](https://medium.com/@abhigulve06/lld-of-the-snake-and-ladder-game-3fd9f47cdd3a)
-- [Design Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc)
-- [Design Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/)
-- [Design File System](https://www.geeksforgeeks.org/system-design/design-data-structures-algorithms-memory-file-system/)
-- [Design Logging System](https://medium.com/@say2ankitgupta/low-level-design-of-logging-framework-ffaae7c701ee)
-- [Design Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/)
-- [Design Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/)
-- [Design Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala)
-- [Design True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding)
-- [Design Traffic Light Management System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/)
-- [Design CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz)
-- [Design Meeting Schedular](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04)
-- [Design BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow)
-- [Design Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8)
-- [Design Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/)
-- [Design ATM machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074)
-- [Design Vending Machine](https://www.geeksforgeeks.org/system-design/vending-machine-low-level-design/)
-- [Design Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/)
-- [Design Cab Booking](https://www.geeksforgeeks.org/system-design/cab-booking-system-low-level-design/)
-- [Design Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9)
-- [Design Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy)
-- [Design Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362)
-- [Design Food Delivery System](https://www.youtube.com/watch?v=XN17WWiUzT4&ab_channel=KeertiPurswani)
-- [Design Peer 2 Peer sharing System](https://www.thealgorists.com/LLD/FileSharingSystem)
-- [Design Rate limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh)
-- [Design Community Discussion Forum]()
+| 🧩 Problem | 📚 Core Concepts Involved |
+|-----------|---------------------------|
+| [Snake and Ladder](https://medium.com/@abhigulve06/lld-of-the-snake-and-ladder-game-3fd9f47cdd3a) |  SOLID |
+| [Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc) | SOLID |
+| [Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/) | SOLID |
+| [Notify Me Feature](https://medium.com/@beingadish/how-amazons-notify-me-feature-leverages-the-observer-design-pattern-d087b23deb46) | Observer Pattern |
+| [File System](https://www.geeksforgeeks.org/system-design/design-data-structures-algorithms-memory-file-system/) |Composite Pattern |
+| [Logging System](https://medium.com/@say2ankitgupta/low-level-design-of-logging-framework-ffaae7c701ee) | Chain of Responsibility |
+| [Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/) | OOP, Strategy |
+| [Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala) | Decorator Pattern |
+| [True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding) | SOLID |
+| [Traffic Light System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/) | Concurrency |
+| [Library Management System](https://medium.com/@kumar.atul.2122/design-library-management-system-low-level-design-using-ood-a8eed1691e53) | SOLID
+| [Hotel Management System](https://www.lldcoding.com/design-lld-a-hotel-management-system-machine-coding-interview) | SOLID
+| [Inventory Management System](https://medium.com/@prashant558908/low-level-design-inventory-management-system-of-an-e-commerce-website-f8507cab5836) | SOLID
+| [Stock Trading System](https://www.geeksforgeeks.org/dbms/how-to-design-a-database-for-stock-trading-app-like-groww/) | SOLID, Concurrency
+| [CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz) | Observer |
+| [Meeting Scheduler](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04) | Locking |
+| [BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow) | Seat Locking |
+| [Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8) | Observer,  Strategy|
+| [Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/) | Strategy, Locking |
+| [ATM Machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074) | Chain of Responsibility |
+| [Vending Machine](https://www.geeksforgeeks.org/system-design/vending-machine-low-level-design/) | Chain of Responsibility |
+| [Cab Booking](https://www.geeksforgeeks.org/system-design/cab-booking-system-low-level-design/) | Strategy |
+| [Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9) | Transaction , Strategy |
+| [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy |
+| [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID |
+| [Food Delivery System](https://www.youtube.com/watch?v=XN17WWiUzT4&ab_channel=KeertiPurswani) | Strategy, SOLID |
+| [Peer-to-Peer Sharing](https://www.thealgorists.com/LLD/FileSharingSystem) | SOLID|
+| [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
+| [Cache Library](https://medium.com/@deelclasico/designing-a-flexible-java-cache-library-low-level-design-4b361b4ac4b5) | Hashing, SOLID
+| [Design a URL Shortener](https://codexbook.medium.com/building-a-url-shortner-service-in-java-low-level-design-d422f10de870) | Encoding
+| [Community Discussion Forum](https://medium.com/@flaviastoian_99743/4-steps-to-designing-good-forums-67b35c28f5da) | SOLID |
+| [Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/) | Strategy, SOLID |
+| [Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/) | Strategy, DS |
 
 ---
 
@@ -452,7 +460,16 @@ POST /orders → place a new order
 POST /payments  
 Idempotency-Key: abc123
 ```
-  
+
+### ✍️ Interview practise Problems on API design
+
+| 🧩 Problem | 📚 Core Concepts Involved |
+|-----------|---------------------------|
+| [Design File upload API](https://tyk.io/blog/api-design-guidance-file-upload/) | REST API |
+| [Design Payment API](https://sumeetmore.medium.com/design-a-payment-api-8100bf5dbba7) | Transactions, Idempotency |
+| [Poll API design](https://dev.to/zeeshanali0704/polling-2hc8) | REST API, Idempotency |
+| [Notification API](https://www.twilio.com/docs/sendgrid/api-reference) | REST API, Idempotency |
+
 ### 📘 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
