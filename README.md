@@ -480,10 +480,61 @@ Idempotency-Key: abc123
 
 ## 🗽 DB schema designing
 
-> TBD
+DB Schema Design focuses on **how** data models are structured, indexed for optimal querying.
+
+This involves **schemas**, **relationships**, and mechanisms to ensure **data integrity, consistency, and traceability**.
+
+### ♻️ ER Diagrams (Entity-Relationship)
+
+- Visual representation of **entities** (tables), their **attributes**, and **relationships**.
+- Helps translate business rules into database structure.
+
+[Learn More →](https://www.geeksforgeeks.org/dbms/introduction-of-er-model/)
+
+### 🗂️ Table Designing
+
+Designing tables with normalization and performance in mind:
+
+- Appropriately choose Primary, Secondary and Foreign Keys
+- Enfore proper constraints to ensure data integrity
+- Add required indices as per access patterns
+- Do table normalisation to avoid Data redundancy
+
+### 🎮 Handling Concurrent Updates
+
+When multiple threads update the **same row**, it can lead to **race conditions** — causing **data loss, corruption, or stale writes**. To avoid this, we apply concurrency control strategies.
+
+####  Pessimistic Locking
+- Locks the row during read 
+- Other transactions must **wait** or **fail**.
+- Best when **conflicts are frequent**.
+
+#### Optimistic Locking
+- Before update, check `version` attribute.
+- If value changed → reject or retry the operation.
+
+✅ High throughput, no blocking  
+❌ May need retries on conflict
+
+
+[Learn More →](https://www.freecodecamp.org/news/how-databases-guarantee-isolation/)
+
+### 🕵️ Traceability & Auditing
+
+Audit trails ensure that **every change to data is tracked** — who did what, when, and why. This enables **debugging**, **security compliance**, and **historical traceability**.
+
+
+
+#### 📌 Common Audit Fields
+
+- Add following attributes to every critical table
+   - `created_at`, `created_by`
+   - `updated_at`, `updated_by`
+- Have a metadata table to store other relevant information.
+  
+
 
 ---
-
 
 ## 🧪 Unit Testing
 
