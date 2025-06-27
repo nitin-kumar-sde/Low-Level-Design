@@ -27,7 +27,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 
 ---
 
-## 🔍 What is LLD?
+# 🔍 What is LLD?
 
 Low-Level Design (LLD) is a crucial phase in the software development process where the internal components of a system and their interactions are defined in detail, including implementation specifics.
 
@@ -42,7 +42,7 @@ LLD acts as a developer’s guide during implementation, ensuring the system is 
 ---
 
 
-## 🔩 What does LLD comprise?
+# 🔩 What does LLD comprise?
 
 While LLD can capture a wide range of micro-level details, it primarily focuses on the following key areas:
 
@@ -59,13 +59,13 @@ While LLD can capture a wide range of micro-level details, it primarily focuses 
 
 ---
 
-## 🧱 OOPs
+# 🧱 OOPs
 
 Before diving into Low-Level Design (LLD), having a strong grasp of **Object-Oriented Programming (OOP)** is essential.
 
 OOP provides the foundation for building modular, reusable, and maintainable software.
 
-### 🔑 Core OOP Concepts
+## 🔑 Core OOP Concepts
 
 - [📦 Classes & Objects](https://www.geeksforgeeks.org/classes-objects-java/)
 - [✍🏻 Constructors](https://www.geeksforgeeks.org/constructors-in-java/)
@@ -78,13 +78,13 @@ OOP provides the foundation for building modular, reusable, and maintainable sof
   - [➕ Operator Overloading](https://www.geeksforgeeks.org/operator-overloading-cpp/) **(C++ only)**
 
 
-### ❓ Frequently Asked Interview Questions
+## ❓ Frequently Asked Interview Questions
 - [🆚 Abstract Class vs Interface](https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/)
 - [🔁 Static vs Dynamic Binding](https://www.geeksforgeeks.org/java/static-vs-dynamic-binding-in-java/)
 - [📤 Overloading vs Overriding](https://www.geeksforgeeks.org/java/difference-between-method-overloading-and-method-overriding-in-java/)
 - [📦 Constructor Chaining](https://www.geeksforgeeks.org/constructor-chaining-java-examples/)
 
-### 📘 Resources
+## 📘 Resources
 - [🗞️ Java OOPs Tutorial – GeeksforGeeks](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
 - [🛫 OOP Concepts with Real Examples – Educative](https://www.educative.io/blog/object-oriented-programming)
 - [🎥 Video Crash Course – YouTube](https://www.youtube.com/watch?v=0flBHkyET_E)
@@ -94,17 +94,17 @@ OOP provides the foundation for building modular, reusable, and maintainable sof
 
 ---
 
-## 📝 UML Diagrams
+# 📝 UML Diagrams
 
 **Unified Modeling Language (UML)** is a standardized visual language used to model the architecture, design, and behavior of software systems. It helps developers, architects, and stakeholders communicate system structure and design decisions effectively.
 
-### 🧭 Types of UML Diagrams
+## 🧭 Types of UML Diagrams
 
 - **📐 Structural Diagrams** – Describe the *static* aspects of the system such as classes, objects, and their relationships.
 - **⚙️ Behavioral Diagrams** – Represent the *dynamic* behavior of the system including use cases, sequences, and workflows.
 
 
-### 🏎️ Most Commonly used UML Diagrams
+## 🏎️ Most Commonly used UML Diagrams
 
 - [📦 Class Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/)
 - [🧸 Object Diagrams](https://www.geeksforgeeks.org/unified-modeling-language-uml-object-diagrams/)
@@ -115,23 +115,23 @@ OOP provides the foundation for building modular, reusable, and maintainable sof
 - [🎭 Use Case Diagrams](https://www.geeksforgeeks.org/use-case-diagram/)
 
 
-### ❓ Frequently Asked Interview Questions
+## ❓ Frequently Asked Interview Questions
 - [🧩 Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
 - [🔗 "Is A" vs "Has A" Relationship](https://www.geeksforgeeks.org/what-is-has-a-relation-in-java/)
 
-### 🛠️ Tools for Designing UML Diagrams
+## 🛠️ Tools for Designing UML Diagrams
 - [✏️ Draw.io](https://draw.io) 
 - [📝 Lucidchart](https://www.lucidchart.com/) 
 - [♻️ PlantUML](https://plantuml.com/) 
 
 ---
 
-## 🎲 Design Principles
+# 🎲 Design Principles
 
 Design principles are foundational guidelines that help developers build clean, maintainable, and scalable systems. These principles reduce code smells, improve team collaboration, and enhance long-term project sustainability.
 
 
-### 🧱 SOLID
+## 🧱 SOLID
 
 **SOLID** is an acronym for five essential object-oriented design principles introduced by *Robert C. Martin (Uncle Bob)*. They promote clean architecture, ease of extension, and maintainability.
 
@@ -154,7 +154,7 @@ High-level modules should not depend on low-level modules. Both should depend on
 🧠 *Note:* These principles are the backbone of designing robust, testable, and extensible object-oriented systems.
 
 
-### ♻️ DRY
+## ♻️ DRY
 
 **DRY** is an acronym which stands for **Don't Repeat Yourself**.
 
@@ -169,7 +169,7 @@ Duplication leads to inconsistency, bugs, and higher maintenance effort.
 - Rely on proven libraries to avoid reinventing the wheel.
 
 
-### 🧊 KISS – Keep It Simple, Stupid
+## 🧊 KISS – Keep It Simple, Stupid
 
 **KISS** is an acronym which stands for **Keep It Simple, Stupid.**
 
@@ -186,7 +186,7 @@ Simple code is easier to read, debug, test, and extend.
 - Write for clarity first, optimization later.
 
 
-### 🚫 YAGNI 
+## 🚫 YAGNI 
 
 **YAGNI** is an acronym which stands for **You Aren’t Gonna Need It**. 
 
@@ -201,7 +201,7 @@ Speculative features increase code complexity and often never get used.
 - Don’t anticipate future features unless they’re well-defined.
 
 
-### 📘 Resources
+## 📘 Resources
 
 - [SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 - [Video SOLID](https://www.youtube.com/watch?v=_jDNAf3CzeY)
@@ -212,7 +212,7 @@ Speculative features increase code complexity and often never get used.
   
 ---
 
-## 💫 Design Patterns
+# 💫 Design Patterns
 
 **Design Patterns** are proven, reusable solutions to common problems in software design. Rather than reinventing the wheel, developers can apply these patterns to improve code quality, scalability, and maintainability.
 
@@ -220,7 +220,7 @@ They encapsulate best practices gained over time, helping teams write cleaner, m
 
 Design patterns are broadly categorized into **three types**, based on their purpose:
 
-### 🏗️ Creational Patterns  
+## 🏗️ Creational Patterns  
 
 **Concerned with **object creation**, they abstract the instantiation process and promote loose coupling.**
 
@@ -231,7 +231,7 @@ Design patterns are broadly categorized into **three types**, based on their pur
 - 🧬 [Prototype](https://www.geeksforgeeks.org/system-design/prototype-design-pattern/) - Clone existing objects without depending on their classes.
 
 
-### 🧱 Structural Patterns  
+## 🧱 Structural Patterns  
 
 These patterns deal with the **composition of classes and objects**, forming larger structures while keeping them flexible and efficient.
 
@@ -243,7 +243,7 @@ These patterns deal with the **composition of classes and objects**, forming lar
 - 🛡️ [Proxy](https://www.geeksforgeeks.org/system-design/proxy-design-pattern/) - Control access or add functionality to another object.
 
 
-### 🚢 Behavioral Patterns  
+## 🚢 Behavioral Patterns  
 
 These patterns focus on **communication between objects**, how they interact, and delegate responsibilities.
 
@@ -254,7 +254,7 @@ These patterns focus on **communication between objects**, how they interact, an
 - 🔁 [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/) - Provide a way to access elements sequentially.
 - 🧾 [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/) - Pass request along a chain of handlers until one handles it.
 
-### 🧠 When to Use Each Design Pattern
+## 🧠 When to Use Each Design Pattern
 
 | 🏷️ Pattern            | 💡 Intent                                                | 📎 When to Use                                                                 | 🔍 Example                              |
 |-----------------------|----------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------|
@@ -277,7 +277,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | **Chain of Responsibility** | Pass request along a chain of handlers           | When multiple handlers can process a request                                   | Customer support escalation              |
 
 
-### 📘 Resources
+## 📘 Resources
 
 - [Coursera – Design Patterns (by UC San Diego)](https://www.coursera.org/learn/design-patterns)
 - [GOF Book - Attached as PDF in Repository](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
@@ -285,7 +285,7 @@ These patterns focus on **communication between objects**, how they interact, an
 
 ---
 
-## 🛠 Practice Standard Interview Problems
+# 🛠 Practice Standard Interview Problems
 
 | 🧩 Problem | 📚 Core Concepts Involved |
 |-----------|---------------------------|
@@ -325,14 +325,14 @@ These patterns focus on **communication between objects**, how they interact, an
 
 ---
 
-## 🧹 Clean Coding 
+# 🧹 Clean Coding 
 
 Writing **clean code** is about crafting software that is easy to read, maintain, and extend. It focuses on **clarity, simplicity, consistency, and intent**, rather than cleverness. Clean code reduces bugs, improves collaboration, and makes debugging faster.
 
 > _"Clean code always looks like it was written by someone who cares."_  
 > – Robert C. Martin (Uncle Bob)
 
-### 🧭 Principles of Clean Code
+## 🧭 Principles of Clean Code
 
 - 📛 **Meaningful Names**: Use descriptive variable, method, and class names.
 - 📏 **Small Functions**: Functions should do one thing and do it well.
@@ -347,7 +347,7 @@ Writing **clean code** is about crafting software that is easy to read, maintain
 > 🔁 Writing clean code is not a one-time task — it’s a mindset and a habit built over time.
 
 
-### 📚 Resources
+## 📚 Resources
 
 - [Clean Code Video Playlist](https://www.youtube.com/watch?v=7EmboKQH8lM)
 - [Clean Code Tutorial](https://www.freecodecamp.org/news/how-to-write-clean-code/)
@@ -355,18 +355,18 @@ Writing **clean code** is about crafting software that is easy to read, maintain
 
 ---
 
-## ⏳ Modular Application Architecture
+# ⏳ Modular Application Architecture
 
 Layered architecture separates responsibilities into distinct layers, making code modular, testable, and easier to maintain.
 
-### 💡 Layer Responsibilities
+## 💡 Layer Responsibilities
 
 - **𝄜 Controller Layer**: Handles user input and routes requests to the domain layer.
 - **📋 Domain Layer**: Contains core business logic and models.
 - **🔧 DAO Layer**: Responsible for interacting with the database.
 - **📎 Accessor Layer**: Handles communication with external services/APIs.
 
-### 📁 Sample Folder Structure
+## 📁 Sample Folder Structure
 
 ```
 /src
@@ -382,13 +382,13 @@ Layered architecture separates responsibilities into distinct layers, making cod
 
 ---
 
-## 🧳 API designing
+# 🧳 API designing
 
 Designing high-quality APIs is fundamental to building scalable, maintainable, and user-friendly backend systems. A well-designed API acts as a **contract** between systems—enabling integration, clear communication, and long-term stability.
 
-This section outlines key principles and best practices for designing clean, RESTful APIs.
+## 🚏 Best practices for designing RESTful APIs
 
-#### 🏆 Self explainatory Name
+### 🏆 Self explainatory Name
 - API endpoints should clearly reflect their intent through naming.
 - Avoid side effects or unexpected behavior not implied by the name.
 - Use nouns for resource names and HTTP methods to convey action:
@@ -400,12 +400,12 @@ GET /users/{id} → fetch user info
 POST /orders → place a new order
 ```
 
-#### 🎸 Follow Single Responsibility Principle
+### 🎸 Follow Single Responsibility Principle
 - Each API should perform one well-defined task.
 - If an endpoint handles multiple flows or behaviors, break it down into separate endpoints for clarity and testability.
 
 
-#### 🎖 Clear Structure: Paths, Requests & Responses
+### 🎖 Clear Structure: Paths, Requests & Responses
 - Keep API paths hierarchical, resource-based, and REST-compliant
 - Use consistent and clear attribute naming conventions in JSON bodies
 - Document the request/response schemas (use OpenAPI/Swagger for standardization).
@@ -415,7 +415,7 @@ POST /orders → place a new order
 ❌ GET /getAllOrdersByUserId
 ```
 
-#### 🎭 Meaningful Errors with Status Codes
+### 🎭 Meaningful Errors with Status Codes
 - Include meaningful error messages and appropriate HTTP status codes in the response body.
 `200 OK`, `201 Created`, `400 Bad Request`, `401 Unauthorized`, `404 Not Found`, `500 Internal Server Error`
 
@@ -426,7 +426,7 @@ POST /orders → place a new order
 }
 ```
 
-#### 🔢 Use Versioning
+### 🔢 Use Versioning
 - Always version your APIs to support backward-incompatible changes.
 - Use URI versioning like
   
@@ -434,25 +434,25 @@ POST /orders → place a new order
 /api/v1/users
 ```
  
-#### 🔐 Implement Authentication & Authorization
+### 🔐 Implement Authentication & Authorization
 
 - Use industry standards like OAuth2, JWT, or API keys to secure your APIs.
 - Enforce **Role-Based Access Control (RBAC)** to restrict sensitive operations.
 
 
-#### ⏳ Rate Limiting
+### ⏳ Rate Limiting
 
 - Protect APIs from abuse and server overload using rate-limiting.
 - Return status code 429 Too Many Requests when limit is exceeded
 
 
-#### 🧮 Pagination for Large Data Sets
+### 🧮 Pagination for Large Data Sets
 
 - Use offset-based or cursor-based pagination when response is too large
 
 `GET /orders?page=2&limit=50`
 
-#### ♻️ Idempotency for Safe Repeats
+### ♻️ Idempotency for Safe Repeats
 - Ensure repeatable requests (especially PUT, DELETE, and retryable POSTs) don’t create unintended side effects.
 - Use idempotency keys to prevent duplicate processing.
 
@@ -461,7 +461,7 @@ POST /payments
 Idempotency-Key: abc123
 ```
 
-### ✍️ Interview practise Problems on API design
+## ✍️ Interview practise Problems on API design
 
 | 🧩 Problem | 📚 Core Concepts Involved |
 |-----------|---------------------------|
@@ -470,7 +470,7 @@ Idempotency-Key: abc123
 | [Poll API design](https://dev.to/zeeshanali0704/polling-2hc8) | REST API, Idempotency |
 | [Notification API](https://www.twilio.com/docs/sendgrid/api-reference) | REST API, Idempotency |
 
-### 📘 Resources
+## 📘 Resources
 - [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
 - [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
 - [Video Tutorial on REST APIs](https://www.youtube.com/watch?v=7nm1pYuKAhY)
@@ -478,20 +478,20 @@ Idempotency-Key: abc123
 
 ---
 
-## 🗽 DB schema designing
+# 🗽 DB schema designing
 
 DB Schema Design focuses on **how** data models are structured, indexed for optimal querying.
 
 This involves **schemas**, **relationships**, and mechanisms to ensure **data integrity, consistency, and traceability**.
 
-### ♻️ ER Diagrams (Entity-Relationship)
+## ♻️ ER Diagrams (Entity-Relationship)
 
 - Visual representation of **entities** (tables), their **attributes**, and **relationships**.
 - Helps translate business rules into database structure.
 
 [Learn More →](https://www.geeksforgeeks.org/dbms/introduction-of-er-model/)
 
-### 🗂️ Table Designing
+## 🗂️ Table Designing
 
 Designing tables with normalization and performance in mind:
 
@@ -500,16 +500,16 @@ Designing tables with normalization and performance in mind:
 - Add required indices as per access patterns
 - Do table normalisation to avoid Data redundancy
 
-### 🎮 Handling Concurrent Updates
+## 🎮 Handling Concurrent Updates
 
 When multiple threads update the **same row**, it can lead to **race conditions** — causing **data loss, corruption, or stale writes**. To avoid this, we apply concurrency control strategies.
 
-####  Pessimistic Locking
+###  Pessimistic Locking
 - Locks the row during read 
 - Other transactions must **wait** or **fail**.
 - Best when **conflicts are frequent**.
 
-#### Optimistic Locking
+### Optimistic Locking
 - Before update, check `version` attribute.
 - If value changed → reject or retry the operation.
 
@@ -519,24 +519,21 @@ When multiple threads update the **same row**, it can lead to **race conditions*
 
 [Learn More →](https://www.freecodecamp.org/news/how-databases-guarantee-isolation/)
 
-### 🕵️ Traceability & Auditing
+## 🕵️ Traceability & Auditing
 
 Audit trails ensure that **every change to data is tracked** — who did what, when, and why. This enables **debugging**, **security compliance**, and **historical traceability**.
 
 
-
-#### 📌 Common Audit Fields
+### 📌 Common Audit Fields
 
 - Add following attributes to every critical table
    - `created_at`, `created_by`
    - `updated_at`, `updated_by`
 - Have a metadata table to store other relevant information.
   
-
-
 ---
 
-## 🧪 Unit Testing
+# 🧪 Unit Testing
 
 **Unit testing** is the process of testing individual units of code—such as functions, methods, or classes—in isolation from the rest of the system. It is a **core practice in modern software development** that ensures your business logic works correctly before integration with other parts.
 
@@ -547,7 +544,7 @@ Well-written unit tests serve as a **safety net during refactoring**, enable fas
 > “Tests are not optional. A project without tests is broken by design.”  
 > – *Robert C. Martin*
 
-### 🕰 Best Practices
+## 🕰 Best Practices
 
 - ✅ **Test One Thing**  
   Each test should validate a single, specific behavior — this makes tests easier to read and debug.
@@ -574,7 +571,7 @@ Well-written unit tests serve as a **safety net during refactoring**, enable fas
   Strive for **high coverage** but not at the cost of readability or test bloat. Focus more on **important logic paths** than on achieving 100%.
 
 
-### 🧰 Common Libraries and Tools
+## 🧰 Common Libraries and Tools
 
 | Language     | Framework         | Testing Tools                | Mocking Tools            |
 |--------------|-------------------|-------------------------------|---------------------------|
@@ -586,7 +583,7 @@ Well-written unit tests serve as a **safety net during refactoring**, enable fas
 | **Ruby**     | Rails              | RSpec                         | rspec-mocks               |
 
 
-### 📘 Resources
+## 📘 Resources
 
 - 📖 [Java Unit Testing – FreeCodeCamp](https://www.freecodecamp.org/news/java-unit-testing/)
 - 📺 [Unit Testing in Java – YouTube](https://www.youtube.com/watch?v=o5k9NOR9lrI)
@@ -597,7 +594,7 @@ Well-written unit tests serve as a **safety net during refactoring**, enable fas
 ---
 
 
-## 🦅 Error Handling
+# 🦅 Error Handling
 
 Exception handling in APIs plays a **critical role** in delivering a predictable and smooth client experience. When done well, it provides:
 - **Meaningful feedback** to clients
@@ -611,12 +608,12 @@ A well-handled exception should:
 - Enable **client retries** in transient scenarios (e.g., 5xx errors) using exponential backoff
 
 
-### 🏄‍♂️ Best Practices
+## 🏄‍♂️ Best Practices
 
-#### ✅ **Use Custom Exception Classes**  
+### ✅ **Use Custom Exception Classes**  
   Create domain-specific exceptions for granular control and clearer intent.
 
-#### 🧭 **Map Exceptions to Appropriate HTTP Status Codes**  
+### 🧭 **Map Exceptions to Appropriate HTTP Status Codes**  
   | Code | Meaning                    | Example                            |
   |------|----------------------------|------------------------------------|
   | 400  | Bad Request                | Input validation failure           |
@@ -625,22 +622,22 @@ A well-handled exception should:
   | 404  | Not Found                  | Resource does not exist            |
   | 500  | Internal Server Error      | Unhandled server-side exception    |
 
-#### 🔍 **Never Swallow Exceptions Silently**  
+### 🔍 **Never Swallow Exceptions Silently**  
   Always log the full stack trace and error context — it's essential for debugging and root cause analysis.
 
-#### 🔄 **Differentiate Error Types**  
+### 🔄 **Differentiate Error Types**  
   - **User Errors**: Invalid inputs, unauthorized access  
   - **Business Failures**: Domain rule violations (e.g., insufficient balance)  
   - **System Failures**: Downstream API or DB failures
 
-#### 📊 **Emit Structured Logs and Metrics**  
+### 📊 **Emit Structured Logs and Metrics**  
   Include identifiers like `traceId`, `requestId`, and error codes in logs. Integrate with observability tools (e.g., ELK, Prometheus).
 
-#### 🧹 **Validate and Sanitize Inputs**  
+### 🧹 **Validate and Sanitize Inputs**  
   Prevent invalid data and avoid cascading downstream issues.
 
 
-### ❗ Sample Error Response
+## ❗ Sample Error Response
 
 ```json
 {
@@ -652,18 +649,18 @@ A well-handled exception should:
 }
 ```
 
-### 📘 Resources
+## 📘 Resources
 - [Tutorail](https://www.baeldung.com/java-exceptions)
 - [Video Tutorial](https://www.youtube.com/watch?v=34ttwuxHtAE)
 - [Best Practises](https://www.geeksforgeeks.org/best-practices-to-handle-exceptions-in-java/)
 
 ---
 
-## 🧵 Multi Threading
+# 🧵 Multi Threading
 
 Multithreading allows multiple parts of a program to run concurrently, leveraging modern multi-core processors. It's foundational for writing responsive, high-performance systems.
 
-### 🚀 Why Use Multithreading?
+## 🚀 Why Use Multithreading?
 
 - 🔄 **Asynchronous Processing**: Keep UIs responsive or background jobs non-blocking.
 - ⚙️ **Parallelism**: Perform CPU-intensive tasks faster using multiple cores.
@@ -672,13 +669,13 @@ Multithreading allows multiple parts of a program to run concurrently, leveragin
 > ⚠️ Multithreading introduces complexity: **race conditions**, **deadlocks**, **livelocks**, and **memory visibility issues**.
 
 
-### 🧩 Threading Basics
+## 🧩 Threading Basics
 
 - 📚 [Java Threads Introduction](https://www.geeksforgeeks.org/java-threads/)
 - 🧬 [Threads vs Processes](https://www.shiksha.com/online-courses/articles/difference-between-process-and-thread/)
 
 
-### 🛠️ Thread Safety & Synchronization
+## 🛠️ Thread Safety & Synchronization
 
 Ensuring correctness when multiple threads access shared data:
 
@@ -689,7 +686,7 @@ Ensuring correctness when multiple threads access shared data:
 - 📦 [Concurrent Collections](https://www.geeksforgeeks.org/need-concurrent-collections-java/)
 
 
-### ⛓️ Inter-thread Communication
+## ⛓️ Inter-thread Communication
 
 For coordination and signaling between threads
 
@@ -698,7 +695,7 @@ For coordination and signaling between threads
 - 🔄 [Exchanger](https://www.baeldung.com/java-exchanger)
 
 
-### 🧳 Thread Pools & Executors
+## 🧳 Thread Pools & Executors
 
 Efficient thread lifecycle management using executors
 
@@ -709,13 +706,13 @@ Efficient thread lifecycle management using executors
 - 🔀 [Fork/Join Framework](https://www.baeldung.com/java-fork-join)
 
 
-### 📉 Optimal Thread Count
+## 📉 Optimal Thread Count
 
 - ⚖️ [How to Calculate Ideal Thread Pool Size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
 - 📐 [Parallelization Factor](https://stackoverflow.com/questions/43874079/how-to-decide-on-the-threadpooltaskexecutor-pools-and-queue-sizes)
 
 
-### ⚠️ Common Pitfalls
+## ⚠️ Common Pitfalls
 
 Avoiding the classic mistakes of concurrent programming:
 
@@ -723,14 +720,14 @@ Avoiding the classic mistakes of concurrent programming:
 - 🔁 [Race Conditions](https://www.baeldung.com/cs/race-conditions)
 
 
-### 📚 Resources
+## 📚 Resources
 
 - 📘 [Comprehensive Java Concurrency Guide – Baeldung](https://www.baeldung.com/java-concurrency)
 - 📺 [Multithreading Crash Course – FreeCodeCamp](https://www.youtube.com/watch?v=gvQGKRlgop4&ab_channel=freeCodeCamp.org)
 
 ---
 
-## 📖 Recommended Books
+# 📖 Recommended Books
 
 - **[Clean Code](./Books/Clean_Code.pdf)** — *Robert C. Martin*
   
