@@ -732,9 +732,14 @@ Avoiding the classic mistakes of concurrent programming:
 
 ## 📖 Recommended Books
 
-- **Design Patterns: Elements of Reusable Object-Oriented Software** 
-- **Clean Code** 
-- **Refactoring - Improving the Design of Existing Code**
+- **[Clean Code](./Books/Clean_Code.pdf)** — *Robert C. Martin*
+  
+- **[Design Patterns: Elements of Reusable Object-Oriented Software (GoF)](./Books/GOF.pdf)** — *Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides*  
+
+- **[Refactoring: Improving the Design of Existing Code](./Books/Refactoring.pdf)** — *Martin Fowler*  
+
+- **[The Pragmatic Programmer](./Books/The_Pragmatic_Programmer.pdf)** — *Andrew Hunt & David Thomas*  
+
 
 ---
 
