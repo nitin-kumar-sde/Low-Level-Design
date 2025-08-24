@@ -203,8 +203,7 @@ Speculative features increase code complexity and often never get used.
 
 ## 📘 Resources
 
-- [SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
-- [Video SOLID](https://www.youtube.com/watch?v=_jDNAf3CzeY)
+- [SOLID Principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 - [DRY Principle](https://www.baeldung.com/cs/dry-software-design-principle)
 - [KiSS Principle](https://www.baeldung.com/cs/kiss-software-design-principle)
 - [YAGNI Principle](https://www.geeksforgeeks.org/software-engineering/what-is-yagni-principle-you-arent-gonna-need-it/)
