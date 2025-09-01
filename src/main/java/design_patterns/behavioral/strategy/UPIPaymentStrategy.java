@@ -3,7 +3,7 @@ package design_patterns.behavioral.strategy;
 /**
  * Concrete strategy for UPI payment.
  */
-public class UPIPaymentStrategy implements PaymentStrategy{
+public class UPIPaymentStrategy implements PaymentStrategy {
 
     private final String upiId;
 

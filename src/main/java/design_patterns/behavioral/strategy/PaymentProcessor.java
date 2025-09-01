@@ -6,13 +6,9 @@ package design_patterns.behavioral.strategy;
 public class PaymentProcessor {
 
     // different payment strategies can be injected dynamically
-    private PaymentStrategy paymentStrategy;
+    private final PaymentStrategy paymentStrategy;
 
     public PaymentProcessor(PaymentStrategy paymentStrategy) {
-        this.paymentStrategy = paymentStrategy;
-    }
-
-    public void setPaymentStrategy(PaymentStrategy paymentStrategy) {
         this.paymentStrategy = paymentStrategy;
     }
 
