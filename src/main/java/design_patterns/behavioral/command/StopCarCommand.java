@@ -1,4 +1,4 @@
-package design_patterns.creational.command;
+package design_patterns.behavioral.command;
 
 /**
  * StopCarCommand is a concrete command that stops the car.

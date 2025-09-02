@@ -1,4 +1,4 @@
-package design_patterns.creational.command;
+package design_patterns.behavioral.command;
 
 /**
  * StartCarCommand is a concrete command that starts the car.

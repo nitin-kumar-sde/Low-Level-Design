@@ -1,4 +1,4 @@
-package design_patterns.creational.command;
+package design_patterns.behavioral.command;
 
 /**
  * CarRemoteControl is the invoker that triggers commands.
