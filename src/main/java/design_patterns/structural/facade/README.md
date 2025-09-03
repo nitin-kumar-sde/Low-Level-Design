@@ -1,39 +1,38 @@
-# 🎯 Flyweight Design Pattern
+# 🏛️ Facade Design Pattern
 
-The **Flyweight Design Pattern** is a **structural pattern** focused on **memory optimization** by reusing existing objects with shared intrinsic state.  
-It avoids creating duplicate objects, reducing the application's memory footprint while maintaining flexibility through extrinsic state.
+The **Facade Design Pattern** is a **structural pattern** that provides a **simplified, unified interface** to a complex subsystem.  
+It doesn't add new behavior but **hides complexity**, making the system easier to use and maintain.
 
 ---
 
 ## 💡 **Core Idea**
-- Store **shared, immutable data** (intrinsic state) in a central cache.
-- Provide **unique external details** (extrinsic state) when using the object.
-- Reuse the same instance whenever the intrinsic state matches.
+- Wrap multiple, complex subsystems behind a **single facade interface**.
+- Clients interact with **one simplified API** instead of dealing with multiple classes.
+- Promotes **decoupling** and **cleaner client code**.
 
 ---
 
 ## 🧩 **Key Components**
 | Component | Responsibility |
 |-----------|----------------|
-| **Flyweight (Shape)** | Defines the common interface for all shared objects. |
-| **Concrete Flyweight (Circle, Square)** | Implements the intrinsic state (e.g., radius, side length). |
-| **Flyweight Factory** | Creates and caches unique shape objects based on type and dimension. |
-| **Client** | Supplies extrinsic state (color, position) when drawing or using shapes. |
+| **Subsystems** | Actual classes performing the core logic. |
+| **Facade** | Provides a single interface that calls the necessary subsystems internally. |
+| **Client** | Uses the facade without worrying about the underlying complexity. |
 
 ---
 
-## 🏆 **Key Advantages**
+## 🏆 Key Advantages
+
 | Feature | Benefit |
 |----------|---------|
-| **Memory Efficiency 🧠** | Eliminates duplicate objects for repeated data. |
-| **Performance Boost ⚡** | Reduces object creation overhead. |
-| **Scalability 📈** | Handles thousands of objects without ballooning memory usage. |
-| **Immutability 🔒** | Ensures thread-safe usage of shared intrinsic data. |
+| **Simplification 🎯** | Provides a clean, single entry point to complex systems. |
+| **Decoupling 🔗** | Clients are isolated from subsystem details. |
+| **Maintenance 🛠** | Subsystem changes don’t affect client code. |
+| **Readability 📖** | Cleaner and more understandable client interactions. |
 
 ---
 
-## 📌 **When to Use**
-- When the system creates **a large number of similar objects**.
-- When objects share **common, unchanging data**.
-- In **performance-critical** or **memory-sensitive** applications.
-
+## 📌 When to Use
+- Simplifying **complex APIs**.
+- Providing a **unified interface** over microservices or multiple modules.
+- **Migrating or integrating legacy systems** without rewriting client code. 
