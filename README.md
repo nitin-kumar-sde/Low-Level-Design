@@ -246,12 +246,18 @@ These patterns deal with the **composition of classes and objects**, forming lar
 
 These patterns focus on **communication between objects**, how they interact, and delegate responsibilities.
 
-- 👁️ [Observer](https://www.geeksforgeeks.org/system-design/observer-pattern-set-1-introduction/) - Notify dependent objects automatically on state change.
-- 🧠 [Strategy](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/) - Select algorithms or behaviors at runtime.
-- 🎮 [Command](https://www.geeksforgeeks.org/system-design/command-pattern/) - Encapsulate a request as an object for later execution.
-- 🔄 [State](https://www.geeksforgeeks.org/system-design/state-design-pattern/) - Change behavior when internal state changes.
-- 🔁 [Iterator](https://www.geeksforgeeks.org/system-design/iterator-pattern/) - Provide a way to access elements sequentially.
-- 🧾 [Chain of Responsibility](https://www.geeksforgeeks.org/system-design/chain-responsibility-design-pattern/) - Pass request along a chain of handlers until one handles it.
+- 👁️ [Observer](./src/main/java/design_patterns/behavioral/observer) - Notify dependent objects automatically on state change.
+- 🧠 [Strategy](./src/main/java/design_patterns/behavioral/strategy) - Select algorithms or behaviors at runtime.
+- 🔁 [Iterator](./src/main/java/design_patterns/behavioral/iterator) - Provide a way to access elements sequentially.
+- 🎮 [Command](./src/main/java/design_patterns/behavioral/command) - Encapsulate a request as an object for later execution.
+- 🔄 [State](./src/main/java/design_patterns/behavioral/state) - Change behavior when internal state changes.
+- 🧾 [Chain of Responsibility](./src/main/java/design_patterns/behavioral/chain_of_responsibilty) - Pass request along a chain of handlers until one handles it.
+- 👓 [Mediator](./src/main/java/design_patterns/behavioral/mediator) - centralizes complex communication between multiple objects.
+- 📸 [Memento](./src/main/java/design_patterns/behavioral/momento) - capture and store an object’s internal state to restore to previous stored states.
+- 📜 [Template](./src/main/java/design_patterns/behavioral/template) - defines skeleton of an algorithm in a base class, with changing parts in corresponding child classes.
+- 🧳 [Visitor](./src/main/java/design_patterns/behavioral/visitor) - Add new operations to existing object structures without modifying their classes.
+- 🪖 [Interpreter](./src/main/java/design_patterns/behavioral/interpreter) - Parse grammar of a language in a object oriented way.
+
 
 ## 🧠 When to Use Each Design Pattern
 
