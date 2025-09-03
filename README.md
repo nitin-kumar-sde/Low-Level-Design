@@ -223,12 +223,11 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 **Concerned with **object creation**, they abstract the instantiation process and promote loose coupling.**
 
-- 🔁 [Singleton](https://www.geeksforgeeks.org/singleton-design-pattern/) -  Ensure a class has only one instance.
-- 🏭 [Factory Method](https://www.geeksforgeeks.org/system-design/factory-method-for-designing-pattern/) - Create objects without exposing the instantiation logic.
-- 🧰 [Abstract Factory](https://www.geeksforgeeks.org/abstract-factory-pattern/) - Factory of factories — create families of related objects.
-- 🧱 [Builder](https://www.geeksforgeeks.org/system-design/builder-design-pattern/) - Step-by-step object construction.
-- 🧬 [Prototype](https://www.geeksforgeeks.org/system-design/prototype-design-pattern/) - Clone existing objects without depending on their classes.
-
+- 🔁 [Singleton](./src/main/java/design_patterns/creational/singleton) -  Ensure a class has only one instance.
+- 🏭 [Factory Method](./src/main/java/design_patterns/creational/singleton/factory/) - Create objects without exposing the instantiation logic.
+- 🧰 [Abstract Factory](./src/main/java/design_patterns/creational/singleton/abstract_factory/) - Factory of factories — create families of related objects.
+- 🧱 [Builder](./src/main/java/design_patterns/creational/singleton/builder/) - Step-by-step object construction.
+- 🧬 [Prototype](./src/main/java/design_patterns/creational/singleton/prototype/) - Clone existing objects without depending on their classes.
 
 ## 🧱 Structural Patterns  
 
