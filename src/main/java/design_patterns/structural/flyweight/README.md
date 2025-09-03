@@ -1,51 +1,39 @@
-# Flyweight Design Pattern — Shapes (Java)
+# 🎯 Flyweight Design Pattern
 
-A lightweight, memory-efficient implementation of the **Flyweight Design Pattern** for managing shapes.  
-Each unique **(shape, dimension)** combination is created once and reused, while **color and position** are provided at draw time.
-
----
-
-## Features
-- Multiple shape types: `Circle`, `Square`
-- Caching at **shape + dimension** level
-- Reuse of intrinsic state to minimize memory footprint
-- Clean, centralized factory logic
+The **Flyweight Design Pattern** is a **structural pattern** focused on **memory optimization** by reusing existing objects with shared intrinsic state.  
+It avoids creating duplicate objects, reducing the application's memory footprint while maintaining flexibility through extrinsic state.
 
 ---
 
-## How It Works
-- **Intrinsic state (shared):** Shape type and dimension (e.g., radius, side length)
-- **Extrinsic state (per call):** Color and coordinates (x, y)
-- **Caching logic:** Uses a unique key like `circle_10` to ensure a single instance per combination
-- **Flow:**
-    1. Request a shape →
-    2. Factory checks cache →
-    3. Returns existing instance or creates and stores a new one
+## 💡 **Core Idea**
+- Store **shared, immutable data** (intrinsic state) in a central cache.
+- Provide **unique external details** (extrinsic state) when using the object.
+- Reuse the same instance whenever the intrinsic state matches.
 
 ---
 
-## Benefits
-- **Memory Efficient:** Reduces duplicate objects
-- **Performance Boost:** Faster repeated object access
-- **Scalable:** Easy to add new shapes or properties
-- **Thread-Safe Ready:** Immutable intrinsic state
+## 🧩 **Key Components**
+| Component | Responsibility |
+|-----------|----------------|
+| **Flyweight (Shape)** | Defines the common interface for all shared objects. |
+| **Concrete Flyweight (Circle, Square)** | Implements the intrinsic state (e.g., radius, side length). |
+| **Flyweight Factory** | Creates and caches unique shape objects based on type and dimension. |
+| **Client** | Supplies extrinsic state (color, position) when drawing or using shapes. |
 
 ---
 
-## Use Cases
-- **Graphics Editors:** Reusing font glyphs or shapes
-- **Game Engines:** Sharing sprites for bullets, trees, or NPCs
-- **Mapping Systems:** Reusing markers or shapes for pins and routes
-- **Document Rendering:** Sharing repeated styling elements
+## 🏆 **Key Advantages**
+| Feature | Benefit |
+|----------|---------|
+| **Memory Efficiency 🧠** | Eliminates duplicate objects for repeated data. |
+| **Performance Boost ⚡** | Reduces object creation overhead. |
+| **Scalability 📈** | Handles thousands of objects without ballooning memory usage. |
+| **Immutability 🔒** | Ensures thread-safe usage of shared intrinsic data. |
 
 ---
 
-## Extensibility
-- Add more shapes by updating the factory
-- Use a `WeakHashMap` to allow garbage collection of unused flyweights
-- Enhance cache keys to include additional parameters like style or theme
-- Keep flyweight objects **immutable** for safe multithreading
+## 📌 **When to Use**
+- When the system creates **a large number of similar objects**.
+- When objects share **common, unchanging data**.
+- In **performance-critical** or **memory-sensitive** applications.
 
----
-
-## Project Structure
