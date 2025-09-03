@@ -233,12 +233,13 @@ Design patterns are broadly categorized into **three types**, based on their pur
 
 These patterns deal with the **composition of classes and objects**, forming larger structures while keeping them flexible and efficient.
 
-- 🔌 [Adapter](https://www.geeksforgeeks.org/adapter-pattern/) - Convert one interface into another.
-- 🌉 [Bridge](https://www.geeksforgeeks.org/system-design/bridge-design-pattern/) - Separate abstraction from implementation.
-- 🌲 [Composite](https://www.geeksforgeeks.org/composite-design-pattern-in-java/) - Treat individual and composite objects uniformly.
-- 🎨 [Decorator](https://www.geeksforgeeks.org/system-design/decorator-pattern/) - Add new behaviors dynamically at runtime.
-- 🧊 [Facade](https://www.geeksforgeeks.org/system-design/facade-design-pattern-introduction/) - Provide a simplified interface to a complex subsystem.
-- 🛡️ [Proxy](https://www.geeksforgeeks.org/system-design/proxy-design-pattern/) - Control access or add functionality to another object.
+- 🔌 [Adapter](./src/main/java/design_patterns/structural/adapter) - Convert one interface into another.
+- 🌉 [Bridge](./src/main/java/design_patterns/structural/bridge) - Separate abstraction from implementation.
+- 🌲 [Composite](./src/main/java/design_patterns/structural/composite) - Treat individual and composite objects uniformly.
+- 🎨 [Decorator](./src/main/java/design_patterns/structural/decorator) - Add new behaviors dynamically at runtime.
+- 🧊 [Facade](./src/main/java/design_patterns/structural/facade) - Provide a simplified interface to a complex subsystem.
+- 🎯 [Flyweight](./src/main/java/design_patterns/structural/flyweight) - Provides memory optimization by reusing existing objects.
+- 🛡️ [Proxy](./src/main/java/design_patterns/structural/proxy) - Control access or add functionality to another object.
 
 
 ## 🚢 Behavioral Patterns  
