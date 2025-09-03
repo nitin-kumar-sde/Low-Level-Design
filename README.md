@@ -253,7 +253,7 @@ These patterns focus on **communication between objects**, how they interact, an
 - 🔄 [State](./src/main/java/design_patterns/behavioral/state) - Change behavior when internal state changes.
 - 🧾 [Chain of Responsibility](./src/main/java/design_patterns/behavioral/chain_of_responsibilty) - Pass request along a chain of handlers until one handles it.
 - 👓 [Mediator](./src/main/java/design_patterns/behavioral/mediator) - centralizes complex communication between multiple objects.
-- 📸 [Memento](./src/main/java/design_patterns/behavioral/momento) - capture and store an object’s internal state to restore to previous stored states.
+- 📸 [Momento](./src/main/java/design_patterns/behavioral/momento) - capture and store an object’s internal state to restore to previous stored states.
 - 📜 [Template](./src/main/java/design_patterns/behavioral/template) - defines skeleton of an algorithm in a base class, with changing parts in corresponding child classes.
 - 🧳 [Visitor](./src/main/java/design_patterns/behavioral/visitor) - Add new operations to existing object structures without modifying their classes.
 - 🪖 [Interpreter](./src/main/java/design_patterns/behavioral/interpreter) - Parse grammar of a language in a object oriented way.
