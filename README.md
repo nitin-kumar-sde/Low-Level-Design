@@ -299,7 +299,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc) | SOLID |
 | [Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/) | SOLID |
 | [Notify Me Feature](https://medium.com/@beingadish/how-amazons-notify-me-feature-leverages-the-observer-design-pattern-d087b23deb46) | Observer Pattern |
-| [File System](https://www.geeksforgeeks.org/system-design/design-data-structures-algorithms-memory-file-system/) |Composite Pattern |
+| [File System](./src/main/java/practise/file_system) |Composite Pattern |
 | [Logging System](https://medium.com/@say2ankitgupta/low-level-design-of-logging-framework-ffaae7c701ee) | Chain of Responsibility |
 | [Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/) | OOP, Strategy |
 | [Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala) | Decorator Pattern |
