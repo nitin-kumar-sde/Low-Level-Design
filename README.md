@@ -298,7 +298,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Snake and Ladder](https://medium.com/@abhigulve06/lld-of-the-snake-and-ladder-game-3fd9f47cdd3a) |  SOLID |
 | [Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc) | SOLID |
 | [Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/) | SOLID |
-| [Notify Me Feature](https://medium.com/@beingadish/how-amazons-notify-me-feature-leverages-the-observer-design-pattern-d087b23deb46) | Observer Pattern |
+| [Notify Me Feature](./src/main/java/practise/notify_me) | Observer Pattern |
 | [File System](./src/main/java/practise/file_system) |Composite Pattern |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton |
 | [Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/) | OOP, Strategy |
