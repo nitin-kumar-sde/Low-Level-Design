@@ -237,6 +237,7 @@ These patterns deal with the **composition of classes and objects**, forming lar
 - 🌉 [Bridge](./src/main/java/design_patterns/structural/bridge) - Separate abstraction from implementation.
 - 🌲 [Composite](./src/main/java/design_patterns/structural/composite) - Treat individual and composite objects uniformly.
 - 🎨 [Decorator](./src/main/java/design_patterns/structural/decorator) - Add new behaviors dynamically at runtime.
+- 🔎 [Criteria](./src/main/java/design_patterns/structural/criteria) - Allow applying dynamic filtering logic.
 - 🧊 [Facade](./src/main/java/design_patterns/structural/facade) - Provide a simplified interface to a complex subsystem.
 - 🎯 [Flyweight](./src/main/java/design_patterns/structural/flyweight) - Provides memory optimization by reusing existing objects.
 - 🛡️ [Proxy](./src/main/java/design_patterns/structural/proxy) - Control access or add functionality to another object.
