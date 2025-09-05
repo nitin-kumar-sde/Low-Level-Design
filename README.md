@@ -295,7 +295,7 @@ These patterns focus on **communication between objects**, how they interact, an
 
 | 🧩 Problem | 📚 Core Concepts Involved |
 |-----------|---------------------------|
-| [Snake and Ladder](https://medium.com/@abhigulve06/lld-of-the-snake-and-ladder-game-3fd9f47cdd3a) |  SOLID |
+| [Snake and Ladder](./src/main/java/practise/snake_ladder) |  SOLID |
 | [Tic Tac Toe](https://medium.com/@avinashsoni9829/tic-tac-toe-low-level-design-f7ebefa88efc) | SOLID |
 | [Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/) | SOLID |
 | [Notify Me Feature](./src/main/java/practise/notify_me) | Observer Pattern |
