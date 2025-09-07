@@ -314,7 +314,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow) | Seat Locking |
 | [Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8) | Observer,  Strategy|
 | [Car Rental System](https://aurigait.com/blog/low-level-design-of-car-rental-system-with-java/) | Strategy, Locking |
-| [ATM Machine](https://medium.com/design-bootcamp/atm-low-level-design-f356595e3074) | Chain of Responsibility |
+| [ATM Machine](./src/main/java/practise/atm) | Chain of Responsibility, State |
 | [Vending Machine](./src/main/java/practise/vending_machine) | State, Strategy |
 | [Cab Booking](https://www.geeksforgeeks.org/system-design/cab-booking-system-low-level-design/) | Strategy |
 | [Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9) | Transaction , Strategy |
