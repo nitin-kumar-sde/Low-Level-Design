@@ -302,11 +302,8 @@ These patterns focus on **communication between objects**, how they interact, an
 | [File System](./src/main/java/practise/file_system) |Composite Pattern |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton |
 | [Parking Lot](./src/main/java/practise/parking_lot) | OOP, Strategy |
-| [Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala) | Decorator Pattern |
 | [True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding) | SOLID |
 | [Traffic Light System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/) | Concurrency |
-| [Library Management System](https://medium.com/@kumar.atul.2122/design-library-management-system-low-level-design-using-ood-a8eed1691e53) | SOLID
-| [Hotel Management System](https://www.lldcoding.com/design-lld-a-hotel-management-system-machine-coding-interview) | SOLID
 | [Inventory Management System](./src/main/java/practise/inventory_management) | SOLID, Strategy
 | [Stock Trading System](https://www.geeksforgeeks.org/dbms/how-to-design-a-database-for-stock-trading-app-like-groww/) | SOLID, Concurrency
 | [CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz) | Observer |
