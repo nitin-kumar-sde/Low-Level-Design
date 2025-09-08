@@ -301,7 +301,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Notify Me Feature](./src/main/java/practise/notify_me) | Observer Pattern |
 | [File System](./src/main/java/practise/file_system) |Composite Pattern |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton |
-| [Parking Lot](https://www.geeksforgeeks.org/system-design/designing-parking-lot-garage-system-system-design/) | OOP, Strategy |
+| [Parking Lot](./src/main/java/practise/parking_lot) | OOP, Strategy |
 | [Pizza Billing System](https://www.youtube.com/watch?v=whghs8payCc&ab_channel=ProgrammingPathshala) | Decorator Pattern |
 | [True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding) | SOLID |
 | [Traffic Light System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/) | Concurrency |
