@@ -313,7 +313,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Car Rental System](./src/main/java/practise/car_rental) | Strategy, Filter |
 | [ATM Machine](./src/main/java/practise/atm) | Chain of Responsibility, State |
 | [Vending Machine](./src/main/java/practise/vending_machine) | State, Strategy |
-| [Cab Booking](https://www.geeksforgeeks.org/system-design/cab-booking-system-low-level-design/) | Strategy |
+| [Cab Booking](./src/main/java/practise/car_booking) | Strategy, Observer |
 | [Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9) | Transaction , Strategy |
 | [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy |
 | [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID |
