@@ -317,7 +317,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9) | Transaction , Strategy |
 | [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy |
 | [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID |
-| [Food Delivery System](https://www.youtube.com/watch?v=XN17WWiUzT4&ab_channel=KeertiPurswani) | Strategy, SOLID |
+| [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID |
 | [Peer-to-Peer Sharing](https://www.thealgorists.com/LLD/FileSharingSystem) | SOLID|
 | [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
 | [Cache Library](https://medium.com/@deelclasico/designing-a-flexible-java-cache-library-low-level-design-4b361b4ac4b5) | Hashing, SOLID
