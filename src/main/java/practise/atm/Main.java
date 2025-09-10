@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         final ATMContext atmContext = new ATMContext();
-        ATM atm = new ATM(atmContext);
+        final ATM atm = new ATM(atmContext);
         atm.start();
     }
 }

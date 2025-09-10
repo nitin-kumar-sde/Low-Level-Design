@@ -18,6 +18,7 @@ public class Main {
         AreaCalculator areaCalculator = new AreaCalculator(new StringAreaPrinter());
         List<Shape> shapes = List.of(square, circle);
         double totalArea = areaCalculator.calculateArea(shapes);
-        System.out.println("Total Area: " + totalArea);
+        System.out.println("Total Area: " + totalArea );
+
     }
 }

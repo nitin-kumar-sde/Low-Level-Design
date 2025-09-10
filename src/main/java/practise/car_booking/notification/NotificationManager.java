@@ -10,7 +10,7 @@ public class NotificationManager {
         this.notifier = notifier;
     }
 
-    public void sendNotification(Ride ride) {
+    public void sendNotification(final Ride ride) {
         // checks status of ride and notifies
         // in prod will be split into multiple functions
         // we can use decorator pattern to add addons like function signature.
