@@ -661,7 +661,7 @@ A well-handled exception should:
 
 # 🧵 Multi Threading
 
-Multithreading allows multiple parts of a program to run concurrently, leveraging modern multi-core processors. It's foundational for writing responsive, high-performance systems.
+Multithreading allows multiple parts of a program to bowlScore concurrently, leveraging modern multi-core processors. It's foundational for writing responsive, high-performance systems.
 
 ## 🚀 Why Use Multithreading?
 
