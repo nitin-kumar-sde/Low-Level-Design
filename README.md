@@ -675,7 +675,7 @@ Multithreading allows multiple parts of a program to bowlScore concurrently, lev
 ## 🧩 Threading Basics
 
 - 📚 [Java Threads Introduction](https://www.geeksforgeeks.org/java-threads/)
-- 🧬 [Threads vs Processes](https://www.shiksha.com/online-courses/articles/difference-between-process-and-thread/)
+- 🧬 [Threads vs Processes](https://www.geeksforgeeks.org/operating-systems/difference-between-process-and-thread/)
 
 
 ## 🛠️ Thread Safety & Synchronization
