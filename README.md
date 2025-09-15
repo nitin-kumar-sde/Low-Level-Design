@@ -694,7 +694,7 @@ Ensuring correctness when multiple threads access shared data:
 For coordination and signaling between threads
 
 - 👂 [Wait & Notify](./src/main/java/concurrency/wait_notify)
-- ⏱️ [CountdownLatch](https://www.baeldung.com/java-countdown-latch)
+- ⏱️ [CountdownLatch](./src/main/java/concurrency/count_down_latch)
 - 🔄 [Exchanger](https://www.baeldung.com/java-exchanger)
 
 
