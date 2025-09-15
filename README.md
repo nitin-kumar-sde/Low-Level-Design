@@ -695,7 +695,6 @@ For coordination and signaling between threads
 
 - 👂 [Wait & Notify](./src/main/java/concurrency/wait_notify)
 - ⏱️ [CountdownLatch](./src/main/java/concurrency/count_down_latch)
-- 🔄 [Exchanger](https://www.baeldung.com/java-exchanger)
 
 
 ## 🧳 Thread Pools & Executors
@@ -705,7 +704,7 @@ Efficient thread lifecycle management using executors
 - 🏊 [Thread Pools in Java](./src/main/java/concurrency/ThreadPoolExample.java)
 - 🧭 [ExecutorService](./src/main/java/concurrency/ThreadPoolExample.java)
 - 🧮 [Callables & Futures](./src/main/java/concurrency/future)
-- 🔀 [Fork/Join Framework](https://www.baeldung.com/java-fork-join)
+- 🔀 [Fork/Join Framework](./src/main/java/concurrency/join_fork)
 
 
 
