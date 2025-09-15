@@ -682,18 +682,18 @@ Multithreading allows multiple parts of a program to bowlScore concurrently, lev
 
 Ensuring correctness when multiple threads access shared data:
 
-- 🔐 [Synchronization](https://www.geeksforgeeks.org/synchronization-in-java/)
-- 🔓 [Locks in Java](https://www.baeldung.com/java-concurrent-locks)
-- 🧪 [Atomic Variables](https://www.baeldung.com/java-atomic-variables)
-- 🚦 [Semaphores](https://www.baeldung.com/java-semaphore)
-- 📦 [Concurrent Collections](https://www.geeksforgeeks.org/need-concurrent-collections-java/)
+- 🔐 [Synchronization](./src/main/java/concurrency/CounterComparisonExample.java)
+- 🔓 [Locks in Java](./src/main/java/concurrency/locks)
+- 🧪 [Atomic Variables](./src/main/java/concurrency/CounterComparisonExample.java)
+- 🚦 [Semaphores](./src/main/java/concurrency/semaphores)
+- 📦 [Concurrent Collections](./src/main/java/concurrency/concurrent_collection)
 
 
 ## ⛓️ Inter-thread Communication
 
 For coordination and signaling between threads
 
-- 👂 [Wait & Notify](https://www.baeldung.com/java-wait-notify)
+- 👂 [Wait & Notify](./src/main/java/concurrency/wait_notify)
 - ⏱️ [CountdownLatch](https://www.baeldung.com/java-countdown-latch)
 - 🔄 [Exchanger](https://www.baeldung.com/java-exchanger)
 
@@ -702,17 +702,11 @@ For coordination and signaling between threads
 
 Efficient thread lifecycle management using executors
 
-- 🏊 [Thread Pools in Java](https://www.baeldung.com/thread-pool-java-and-guava)
-- 🧭 [ExecutorService Overview](https://www.baeldung.com/java-executor-service-tutorial)
-- 🧱 [Types of Executors](https://vinodhgowda.medium.com/understanding-executorservices-types-in-java-62ded89f6bdd)
-- 🧮 [Callables & Futures](https://www.geeksforgeeks.org/callable-future-java/)
+- 🏊 [Thread Pools in Java](./src/main/java/concurrency/ThreadPoolExample.java)
+- 🧭 [ExecutorService](./src/main/java/concurrency/ThreadPoolExample.java)
+- 🧮 [Callables & Futures](./src/main/java/concurrency/future)
 - 🔀 [Fork/Join Framework](https://www.baeldung.com/java-fork-join)
 
-
-## 📉 Optimal Thread Count
-
-- ⚖️ [How to Calculate Ideal Thread Pool Size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
-- 📐 [Parallelization Factor](https://stackoverflow.com/questions/43874079/how-to-decide-on-the-threadpooltaskexecutor-pools-and-queue-sizes)
 
 
 ## ⚠️ Common Pitfalls
