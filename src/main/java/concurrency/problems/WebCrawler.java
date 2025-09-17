@@ -18,7 +18,7 @@ public class WebCrawler {
             return Collections.emptyList();
         }
 
-        // Thread-safe visited set
+        // Thread-safe visited add
         Set<String> visited = ConcurrentHashMap.newKeySet();
         // Use a Phaser to wait until all dynamically spawned tasks finish
         Phaser phaser = new Phaser(1); // register main thread as a party

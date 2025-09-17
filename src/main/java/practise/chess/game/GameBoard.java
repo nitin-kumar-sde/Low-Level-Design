@@ -28,7 +28,7 @@ public class GameBoard {
 
         boxes[7][1] = new Cell(new Knight(COLOR.WHITE),
                 0, 4);
-        // ... set the board
+        // ... add the board
 
         // initialize remaining boxes without any piece
         for (int i = 2; i < 6; i++) {
