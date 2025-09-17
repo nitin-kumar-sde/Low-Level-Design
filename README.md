@@ -320,7 +320,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID |
 | [Peer-to-Peer Sharing](https://www.thealgorists.com/LLD/FileSharingSystem) | SOLID|
 | [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
-| [Cache Library](https://medium.com/@deelclasico/designing-a-flexible-java-cache-library-low-level-design-4b361b4ac4b5) | Hashing, SOLID
+| [Cache Library](./src/main/java/practise/cache) | Strategy, Concurrency|
 | [Design a URL Shortener](https://codexbook.medium.com/building-a-url-shortner-service-in-java-low-level-design-d422f10de870) | Encoding
 | [Community Discussion Forum](./src/main/java/practise/community_discussion_platform) | SOLID |
 | [Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/) | Strategy, SOLID |
