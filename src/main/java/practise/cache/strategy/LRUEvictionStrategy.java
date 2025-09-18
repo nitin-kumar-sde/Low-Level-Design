@@ -1,8 +1,9 @@
 package practise.cache.strategy;
 
-import com.weave.node.DoublyLinkedList;
-import com.weave.node.Node;
-import org.springframework.stereotype.Component;
+
+
+import practise.cache.node.DoublyLinkedList;
+import practise.cache.node.Node;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
@@ -10,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Evicts the least recently used key using HashMap + Doubly Linked List.
  */
-@Component
+
 public class LRUEvictionStrategy<K> implements EvictionStrategy<K> {
 
     private final ConcurrentHashMap<K, Node<K>> nodeMap;

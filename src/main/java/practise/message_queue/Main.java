@@ -1,18 +1,18 @@
-package practise.kafka_streams;
+package practise.message_queue;
 
-import practise.kafka_streams.controller.KafkaController;
-import practise.kafka_streams.controller.PublisherController;
-import practise.kafka_streams.controller.SubscriberController;
-import practise.kafka_streams.model.Message;
-import practise.kafka_streams.model.Topic;
-import practise.kafka_streams.publisher.MessagePublisher;
-import practise.kafka_streams.publisher.MessageSubscriber;
+
+import practise.message_queue.controller.PublisherController;
+import practise.message_queue.controller.QueueController;
+import practise.message_queue.controller.SubscriberController;
+import practise.message_queue.model.Message;
+import practise.message_queue.model.Topic;
+import practise.message_queue.poller.MessagePoller;
+import practise.message_queue.publisher.MessagePublisher;
 
 public class Main {
-
     public static void main(String[] args) throws InterruptedException {
 
-        KafkaController kafkaController = new KafkaController();
+        QueueController kafkaController = new QueueController();
         PublisherController publisherController = new PublisherController();
         SubscriberController subscriberController = new SubscriberController();
 
@@ -20,9 +20,9 @@ public class Main {
 
         // --- Step 2: Create Publisher + Subscriber ---
         MessagePublisher publisher = new MessagePublisher();
-        publisher.addTopicPublisher(topic);
+        publisher.addTopic(topic);
 
-        final MessageSubscriber subscriber = new MessageSubscriber();
+        final MessagePoller subscriber = new MessagePoller();
 
         // --- Step 3: Subscribe ---
         subscriberController.addSubscription(subscriber, topic);
@@ -44,5 +44,4 @@ public class Main {
         // --- Step 7: Shutdown subscriber ---
         subscriberController.shutConsumer(subscriber);
     }
-
 }
