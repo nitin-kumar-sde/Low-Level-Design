@@ -318,7 +318,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy |
 | [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID |
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID |
-| [Peer-to-Peer Sharing](https://www.thealgorists.com/LLD/FileSharingSystem) | SOLID|
+| [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency|
 | [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
 | [Cache Library](./src/main/java/practise/cache) | Strategy, Concurrency|
 | [Design a URL Shortener](https://codexbook.medium.com/building-a-url-shortner-service-in-java-low-level-design-d422f10de870) | Encoding
