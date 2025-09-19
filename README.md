@@ -321,7 +321,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency|
 | [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
 | [Cache Library](./src/main/java/practise/cache) | Strategy, Concurrency|
-| [Design a URL Shortener](https://codexbook.medium.com/building-a-url-shortner-service-in-java-low-level-design-d422f10de870) | Encoding
+| [Design a URL Shortener](./src/main/java/practise/url_shortener) | Concurrency, Strategy
 | [Community Discussion Forum](./src/main/java/practise/community_discussion_platform) | SOLID |
 | [Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/) | Strategy, SOLID |
 | [Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/) | Strategy, DS |
