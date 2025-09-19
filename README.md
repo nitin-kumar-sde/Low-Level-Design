@@ -319,9 +319,9 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID |
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID |
 | [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency|
-| [Rate Limiter](https://www.youtube.com/watch?v=X5daFTDfy2g&ab_channel=Concept%26%26Coding-byShrayansh) | Strategy |
+| [Rate Limiter](./src/main/java/practise/rate_limiter) | Strategy, Concurrency |
 | [Cache Library](./src/main/java/practise/cache) | Strategy, Concurrency|
-| [Design a URL Shortener](./src/main/java/practise/url_shortener) | Concurrency, Strategy
+| [Design a URL Shortener](./src/main/java/practise/url_shortener) | Concurrency, Strategy |
 | [Community Discussion Forum](./src/main/java/practise/community_discussion_platform) | SOLID |
 | [Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/) | Strategy, SOLID |
 | [Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/) | Strategy, DS |
