@@ -308,7 +308,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Stock Trading System](https://www.geeksforgeeks.org/dbms/how-to-design-a-database-for-stock-trading-app-like-groww/) | SOLID, Concurrency
 | [CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz) | Observer |
 | [Meeting Scheduler](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04) | Locking |
-| [BookMyShow](https://lowleveldesign.io/OOD/DesignBookMyShow) | Seat Locking |
+| [Movie Booking System](./src/main/java/practise/movie_booking_system) | Concurrency |
 | [Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8) | Observer,  Strategy|
 | [Car Rental System](./src/main/java/practise/car_rental) | Strategy, Filter |
 | [ATM Machine](./src/main/java/practise/atm) | Chain of Responsibility, State |
