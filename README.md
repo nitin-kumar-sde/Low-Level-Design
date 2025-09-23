@@ -323,7 +323,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Cache Library](./src/main/java/practise/cache) | Strategy, Concurrency|
 | [Design a URL Shortener](./src/main/java/practise/url_shortener) | Concurrency, Strategy |
 | [Community Discussion Forum](./src/main/java/practise/community_discussion_platform) | SOLID |
-| [Elevator System](https://www.geeksforgeeks.org/system-design/elevator-system-low-level-design-lld/) | Strategy, SOLID |
+| [Elevator System](./src/main/java/practise/elevator) | Strategy, Scheduling Algorithms |
 | [Splitwise](https://www.geeksforgeeks.org/system-design/system-design-of-backend-for-expense-sharing-apps-like-splitwise/) | Strategy, DS |
 
 ---
