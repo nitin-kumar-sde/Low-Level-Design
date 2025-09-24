@@ -297,6 +297,7 @@ These patterns focus on **communication between objects**, how they interact, an
 |-----------|---------------------------|
 | [Snake and Ladder](./src/main/java/practise/snake_ladder) |  SOLID |
 | [Tic Tac Toe](./src/main/java/practise/tic_tac_toe) | SOLID |
+| [Snake and Food Game](./src/main/java/practise/snake_game) | Strategy, Observer Pattern |
 | [Chess Game](././src/main/java/practise/chess) | SOLID |
 | [Notify Me Feature](./src/main/java/practise/notify_me) | Observer Pattern |
 | [File System](./src/main/java/practise/file_system) |Composite Pattern |
