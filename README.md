@@ -362,8 +362,8 @@ Layered architecture separates responsibilities into distinct layers, making cod
 
 - **𝄜 Controller Layer**: Handles user input and routes requests to the domain layer.
 - **📋 Domain Layer**: Contains core business logic and models.
-- **🔧 DAO Layer**: Responsible for interacting with the database.
-- **📎 Accessor Layer**: Handles communication with external services/APIs.
+- **🔧 Repository/DAO Layer**: Responsible for interacting with the database.
+- **📎 Client Layer**: Handles communication with external services/APIs.
 
 ## 📁 Sample Folder Structure
 
@@ -375,7 +375,7 @@ Layered architecture separates responsibilities into distinct layers, making cod
               ├── controller      # Handles incoming requests (e.g., UserController.java)
               ├── domain          # Business logic and models (e.g., UserService.java, User.java)
               ├── dao             # Data Access layer (e.g., UserRepository.java)
-              └── accessor        # External API/service clients (e.g., EmailClient.java)
+              └── client        # External API/service clients (e.g., EmailClient.java)
 ```
 
 
