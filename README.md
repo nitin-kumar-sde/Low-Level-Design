@@ -23,6 +23,7 @@ Whether you're preparing for system design interviews, leveling up your object-o
 - [🧸 Unit testing](#-unit-testing)
 - [🦅 Error handling](#-error-handling)
 - [🧵 Multi Threading](#-multi-threading)
+- [🪶 Additional Problems / Good Reads](#-additional-problems-problems--good-reads)
 - [📖 Recommended Books](#-recommended-books)
 
 ---
@@ -303,12 +304,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [File System](./src/main/java/practise/file_system) |Composite Pattern | EASY |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton | EASY |
 | [Parking Lot](./src/main/java/practise/parking_lot) | OOP, Strategy | EASY |
-| [True Caller](https://www.lldcoding.com/design-lld-truecaller-machine-coding) | SOLID | EASY |
-| [Traffic Light System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/) | Concurrency | EASY |
 | [Inventory Management System](./src/main/java/practise/inventory_management) | SOLID, Strategy | EASY |
-| [Stock Trading System](https://www.geeksforgeeks.org/dbms/how-to-design-a-database-for-stock-trading-app-like-groww/) | SOLID, Concurrency | MEDIUM |
-| [CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz) | Observer | MEDIUM |
-| [Meeting Scheduler](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04) | Locking | MEDIUM |
 | [Movie Booking System](./src/main/java/practise/movie_booking_system) | Concurrency |  MEDIUM |
 | [Online Voting System](https://dev.to/zeeshanali0704/polling-2hc8) | Observer,  Strategy| EASY |
 | [Car Rental System](./src/main/java/practise/car_rental) | Strategy, Filter | EASY |
@@ -317,7 +313,6 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Cab Booking](./src/main/java/practise/car_booking) | Strategy, Observer | MEDIUM |
 | [Payment Gateway](https://blog.devgenius.io/low-level-design-payment-gateway-system-aead85996fd9) | Transaction , Strategy | MEDIUM|
 | [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy | MEDIUM |
-| [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362) | SOLID | MEDIUM|
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID | MEDIUM|
 | [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency| HARD|
 | [Rate Limiter](./src/main/java/practise/rate_limiter) | Strategy, Concurrency | EASY | 
@@ -721,6 +716,19 @@ Avoiding the classic mistakes of concurrent programming:
 
 - 📘 [Comprehensive Java Concurrency Guide – Baeldung](https://www.baeldung.com/java-concurrency)
 - 📺 [Multithreading Crash Course – FreeCodeCamp](https://www.youtube.com/watch?v=gvQGKRlgop4&ab_channel=freeCodeCamp.org)
+
+---
+
+# 🪶 Additional Problems (Problems + Good Reads)
+
+- [Traffic Light System](https://leetcode.com/discuss/post/291233/design-a-traffic-light-controller-by-thi-7fyd/)
+- [Stock Trading System](https://www.geeksforgeeks.org/dbms/how-to-design-a-database-for-stock-trading-app-like-groww/)
+- [CricBuzz](https://programmingappliedai.substack.com/p/design-patterns-to-be-used-in-cricbuzz)
+- [Meeting Scheduler](https://akhileshmj.medium.com/lld-6-meeting-scheduler-0eb8b23d9b04)
+- [Chat System](https://medium.com/@anurodh.kumar.civ21/low-level-design-of-a-chat-application-a-deep-dive-0af9c6957362)
+- [File Storage System](https://leetcode.com/discuss/post/5328221/frequently-asked-low-level-design-lld-qu-l0xk/)
+- [Shoping Cart System](https://leetcode.com/discuss/post/5328221/frequently-asked-low-level-design-lld-qu-l0xk/)
+
 
 ---
 
