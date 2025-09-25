@@ -311,7 +311,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Vending Machine](./src/main/java/practise/vending_machine) | State, Strategy | MEDIUM |
 | [Cab Booking](./src/main/java/practise/car_booking) | Strategy, Observer | MEDIUM |
 | [Payment Gateway](./src/main/java/practise/payment_gateway) | Transaction , Strategy, Idempotency | MEDIUM|
-| [Notification Service](./src/main/java/practise/notification_system) | Decorator, Strategy | MEDIUM |
+| [Notification Service](./src/main/java/practise/notification_system) | Decorator, Observer | MEDIUM |
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID | MEDIUM|
 | [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency| HARD|
 | [Rate Limiter](./src/main/java/practise/rate_limiter) | Strategy, Concurrency | EASY | 
