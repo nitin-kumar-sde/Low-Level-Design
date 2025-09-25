@@ -300,7 +300,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Tic Tac Toe](./src/main/java/practise/tic_tac_toe) | SOLID |  EASY |
 | [Snake and Food Game](./src/main/java/practise/snake_game) | Strategy, Observer Pattern |  MEDIUM |
 | [Chess Game](././src/main/java/practise/chess) | SOLID | MEDIUM |
-| [Notify Me Feature](./src/main/java/practise/notify_me) | Observer Pattern | EASY |
+| [Notify Me Feature](./src/main/java/practise/notification_system) | Observer Pattern | EASY |
 | [File System](./src/main/java/practise/file_system) |Composite Pattern | EASY |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton | EASY |
 | [Parking Lot](./src/main/java/practise/parking_lot) | OOP, Strategy | EASY |
