@@ -300,7 +300,6 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Tic Tac Toe](./src/main/java/practise/tic_tac_toe) | SOLID |  EASY |
 | [Snake and Food Game](./src/main/java/practise/snake_game) | Strategy, Observer Pattern |  MEDIUM |
 | [Chess Game](././src/main/java/practise/chess) | SOLID | MEDIUM |
-| [Notify Me Feature](./src/main/java/practise/notification_system) | Observer Pattern | EASY |
 | [File System](./src/main/java/practise/file_system) |Composite Pattern | EASY |
 | [Logging System](./src/main/java/practise/logging_framework) | Chain of Responsibility, Factory, Observer, Singleton | EASY |
 | [Parking Lot](./src/main/java/practise/parking_lot) | OOP, Strategy | EASY |
@@ -312,7 +311,7 @@ These patterns focus on **communication between objects**, how they interact, an
 | [Vending Machine](./src/main/java/practise/vending_machine) | State, Strategy | MEDIUM |
 | [Cab Booking](./src/main/java/practise/car_booking) | Strategy, Observer | MEDIUM |
 | [Payment Gateway](./src/main/java/practise/payment_gateway) | Transaction , Strategy, Idempotency | MEDIUM|
-| [Notification Service](https://www.youtube.com/watch?v=t-4r2AsJz_Q&ab_channel=CoderArmy) | Decorator, Strategy | MEDIUM |
+| [Notification Service](./src/main/java/practise/notification_system) | Decorator, Strategy | MEDIUM |
 | [Food Delivery System](./src/main/java/practise/food_delivery) | Strategy, SOLID | MEDIUM|
 | [Kafka Stream](./src/main/java/practise/kafka_streams) | Concurrency| HARD|
 | [Rate Limiter](./src/main/java/practise/rate_limiter) | Strategy, Concurrency | EASY | 
