@@ -406,7 +406,6 @@ POST /orders → place a new order
 ### 🎖 Clear Structure: Paths, Requests & Responses
 - Keep API paths hierarchical, resource-based, and REST-compliant
 - Use consistent and clear attribute naming conventions in JSON bodies
-- Document the request/response schemas (use OpenAPI/Swagger for standardization).
 
 ```
 ✅ GET /users/{userId}/orders
@@ -450,14 +449,19 @@ POST /orders → place a new order
 
 `GET /orders?page=2&limit=50`
 
-### ♻️ Idempotency for Safe Repeats
-- Ensure repeatable requests (especially PUT, DELETE, and retryable POSTs) don’t create unintended side effects.
+### ♻️ Idempotency for Safe Retries
+- Ensure repeated requests (especially PUT, DELETE, and retryable POSTs) don’t create unintended side effects.
 - Use idempotency keys to prevent duplicate processing.
 
 ```
 POST /payments  
 Idempotency-Key: abc123
 ```
+
+### 📜 Documentation
+
+- Document the request/response schemas (use OpenAPI specification and tools like Swagger).
+
 
 ## ✍️ Interview practise Problems on API design
 
