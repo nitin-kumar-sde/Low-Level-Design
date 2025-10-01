@@ -386,7 +386,7 @@ Designing high-quality APIs is fundamental to building scalable, maintainable, a
 
 ## 🚏 Best practices for designing RESTful APIs
 
-### 🏆 Self explainatory Name
+### 🏆 Self Explainatory Name
 - API endpoints should clearly reflect their intent through naming.
 - Avoid side effects or unexpected behavior not implied by the name.
 - Use nouns for resource names and HTTP methods to convey action:
