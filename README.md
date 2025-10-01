@@ -467,16 +467,9 @@ Idempotency-Key: abc123
 
 | 🧩 Problem | 📚 Core Concepts Involved |
 |-----------|---------------------------|
-| [Design File upload API](https://tyk.io/blog/api-design-guidance-file-upload/) | REST API |
-| [Design Payment API](https://sumeetmore.medium.com/design-a-payment-api-8100bf5dbba7) | Transactions, Idempotency |
-| [Poll API design](https://dev.to/zeeshanali0704/polling-2hc8) | REST API, Idempotency |
-| [Notification API](https://www.twilio.com/docs/sendgrid/api-reference) | REST API, Idempotency |
-
-## 📘 Resources
-- [API design best practises](https://www.youtube.com/watch?v=_YlYuNMTCc8)
-- [Restful APIs best practises](https://www.youtube.com/watch?v=etKM5-gGwto)
-- [Video Tutorial on REST APIs](https://www.youtube.com/watch?v=7nm1pYuKAhY)
-- [Idempotency](https://medium.com/@reetesh043/rest-api-design-what-is-idempotency-18218e1ff73c)
+| Design File upload API | REST API, Blob Data Storage |
+| Design Payment API | Transactions, Idempotency |
+| Design Notification API | REST API, Idempotency |
 
 ---
 
