@@ -129,7 +129,7 @@ OOP provides the foundation for building modular, reusable, and maintainable sof
 
 # 🎲 Design Principles
 
-Design principles are foundational guidelines that help developers build clean, maintainable, and scalable systems. These principles reduce code smells, improve team collaboration, and enhance long-term project sustainability.
+Design principles are foundational guidelines that help developers build clean, maintainable, and scalable systems.
 
 
 ## 🧱 SOLID
@@ -161,10 +161,10 @@ High-level modules should not depend on low-level modules. Both should depend on
 
 Avoid duplicating logic or knowledge in your codebase.
 
-💡 **Why it matters:**  
+💡 **Why it matters**  
 Duplication leads to inconsistency, bugs, and higher maintenance effort.
 
-🛠 **How to follow DRY:**
+🛠 **How to follow DRY**
 - Extract reusable logic into utility methods or helper classes.
 - Use abstract classes with generics to extract common logic in multiple similar use cases.
 - Rely on proven libraries to avoid reinventing the wheel.
@@ -176,12 +176,12 @@ Duplication leads to inconsistency, bugs, and higher maintenance effort.
 
 Prefer simplicity in design and implementation. Avoid unnecessary complexity.
 
-💡 **Why it matters:**  
+💡 **Why it matters**  
 Simple code is easier to read, debug, test, and extend.
 
 > “Simplicity is the soul of efficiency.” — *Austin Freeman*
 
-🛠 **Tips to follow KISS:**
+🛠 **Tips to follow KISS**
 - Choose the simplest possible solution that works.
 - Avoid premature abstraction or over-engineering.
 - Write for clarity first, optimization later.
@@ -193,21 +193,23 @@ Simple code is easier to read, debug, test, and extend.
 
 Don’t implement something unless it is absolutely required.
 
-💡 **Why it matters:**  
+💡 **Why it matters**  
 Speculative features increase code complexity and often never get used.
 
-🛠 **How to avoid YAGNI:**
+🛠 **How to avoid YAGNI**
 - Stick to current requirements; iterate based on real feedback.
 - Delay abstractions until patterns genuinely emerge.
 - Don’t anticipate future features unless they’re well-defined.
 
 
+💡 𝗣𝗿𝗼 𝗧𝗶𝗽
+For interviews, Open/Closed, Dependency Inversion, and DRY are very important.
+
 ## 📘 Resources
 
-- [SOLID Principles](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- [SOLID Principles](https://www.baeldung.com/solid-principles)
 - [DRY Principle](https://www.baeldung.com/cs/dry-software-design-principle)
 - [KiSS Principle](https://www.baeldung.com/cs/kiss-software-design-principle)
-- [YAGNI Principle](https://www.geeksforgeeks.org/software-engineering/what-is-yagni-principle-you-arent-gonna-need-it/)
 
   
 ---
