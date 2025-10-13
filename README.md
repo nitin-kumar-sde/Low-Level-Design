@@ -227,7 +227,7 @@ Design patterns are broadly categorized into **three types**, based on their pur
 **Concerned with **object creation**, they abstract the instantiation process and promote loose coupling.**
 
 - 🔁 [Singleton](./src/main/java/design_patterns/creational/singleton) -  Ensure a class has only one instance.
-- 🏭 [Factory Method](./src/main/java/design_patterns/creational/factory/) - Create objects without exposing the instantiation logic.
+- 🏭 [Factory](./src/main/java/design_patterns/creational/factory/) - Create objects without exposing the instantiation logic.
 - 🧰 [Abstract Factory](./src/main/java/design_patterns/creational/abstract_factory/) - Factory of factories — create families of related objects.
 - 🧱 [Builder](./src/main/java/design_patterns/creational/builder/) - Step-by-step object construction.
 - 🧬 [Prototype](./src/main/java/design_patterns/creational/prototype/) - Clone existing objects without depending on their classes.
